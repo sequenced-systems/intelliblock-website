@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import HeroSection from '../components/HeroSection'
+import ServicesSection from '../components/ServicesSection'
+import BankabilityShowcase from '../components/BankabilityShowcase'
 
 export const metadata: Metadata = {
   title: 'Intelliblock Consulting — Nigeria Infrastructure Bankability Intelligence',
@@ -90,35 +92,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Two Services */}
-      <section className="section section--white" aria-labelledby="services-headline">
-        <div className="container">
-          <h2 className="section-headline" id="services-headline">Two services. Both built for DFI investment teams and infrastructure developers.</h2>
-          <div className="grid-2 mt-8">
+      <ServicesSection />
 
-            <article className="card service-card" aria-labelledby="ra-title">
-              <p className="card__eyebrow">Assessment</p>
-              <h3 className="card__title" id="ra-title">Rapid Assessment Plus</h3>
-              <p className="card__body">A 5 to 7 day bankability assessment against the 100-Point Bankability Framework V3.2. Pass / conditional / not yet bankable — with category-level evidence for each verdict.</p>
-              <div className="price-box">£15,000–25,000</div>
-              <div className="card__footer">
-                <Link href="/services" className="btn btn--outline">Scope your assessment &rarr;</Link>
-              </div>
-            </article>
-
-            <article className="card service-card" aria-labelledby="pci-title">
-              <p className="card__eyebrow">Subscription Intelligence</p>
-              <h3 className="card__title" id="pci-title">Policy Convergence Intelligence</h3>
-              <p className="card__body">Monthly standing subscription. 2 to 3 Signal Briefs per month on Nigeria infrastructure signals scoring above 40/100 on the Bankability Framework, plus a monthly policy landscape summary.</p>
-              <div className="price-box">£3,500–5,000/month</div>
-              <div className="card__footer">
-                <Link href="/services" className="btn btn--outline">Request a subscription proposal &rarr;</Link>
-              </div>
-            </article>
-
-          </div>
-        </div>
-      </section>
+      <BankabilityShowcase />
 
       {/* Sector Coverage */}
       <div className="sector-bar" role="region" aria-label="Sectors covered">
