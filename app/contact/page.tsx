@@ -48,7 +48,7 @@ export default function ContactPage() {
             <div className="contact-block">
               <p className="contact-block__label">WhatsApp</p>
               <h3 className="contact-block__heading">Quick questions via WhatsApp</h3>
-              <a href="https://wa.me/447000000000" className="contact-block__value" rel="noopener noreferrer" target="_blank">Message on WhatsApp</a>
+              <a href="https://wa.me/447597646553" className="contact-block__value" rel="noopener noreferrer" target="_blank">Message on WhatsApp</a>
             </div>
 
           </div>
@@ -59,7 +59,7 @@ export default function ContactPage() {
 
           <form
             className="contact-form"
-            action="https://formspree.io/f/YOUR_FORM_ID"
+            action="https://formspree.io/f/xwvzrqdz"
             method="POST"
             aria-label="Contact form"
           >

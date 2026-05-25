@@ -208,7 +208,7 @@ export default function Home() {
             </div>
             <form
               className="newsletter-strip__form"
-              action="https://formspree.io/f/YOUR_NEWSLETTER_FORM_ID"
+              action="https://formspree.io/f/xwvzrqdz"
               method="POST"
               aria-label="Subscribe to intelligence updates"
             >

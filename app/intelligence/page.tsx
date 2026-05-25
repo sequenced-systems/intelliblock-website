@@ -205,7 +205,7 @@ export default function IntelligencePage() {
             <p className="email-gate__body">Enter your work email and we will send access details within one working day.</p>
             <form
               className="email-gate__form"
-              action="https://formspree.io/f/YOUR_FORM_ID"
+              action="https://formspree.io/f/xwvzrqdz"
               method="POST"
             >
               <input

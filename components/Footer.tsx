@@ -45,7 +45,7 @@ export default function Footer() {
               <a href="https://intelliblock.setmore.com/ayodeji" rel="noopener noreferrer" target="_blank">Book a 30-minute call</a>
             </p>
             <p className="site-footer__contact-item">
-              <a href="https://wa.me/447000000000" rel="noopener noreferrer" target="_blank">WhatsApp</a>
+              <a href="https://wa.me/447597646553" rel="noopener noreferrer" target="_blank">WhatsApp</a>
             </p>
           </div>
         </div>
