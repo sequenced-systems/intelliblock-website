@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import HeroSection from '../components/HeroSection'
+import ProblemSection from '../components/ProblemSection'
 import ServicesSection from '../components/ServicesSection'
 import BankabilityShowcase from '../components/BankabilityShowcase'
 
@@ -72,46 +73,7 @@ export default function Home() {
       </div>
 
       {/* The Problem — S3 */}
-      <section className="ib-problem" aria-labelledby="ib-problem-headline">
-        <div className="ib-problem__inner">
-          <div>
-            <p className="ib-problem__label">The Problem</p>
-            <h2 className="ib-problem__headline" id="ib-problem-headline">
-              Nigeria generates more infrastructure policy signals per quarter than any economy in Sub-Saharan Africa. Most miss the window.
-            </h2>
-            <p className="ib-problem__body">
-              Policy announcements, DFI deployment statements, legislative shifts — they appear months before market consensus forms. By the time your competitors brief their investment committees, the Convergent Window has closed.
-            </p>
-            <p className="ib-problem__callout">Intelliblock reads the signals first.</p>
-          </div>
-
-          <div className="ib-problem__timeline" aria-label="Intelligence timing advantage">
-            <div className="ib-problem__timeline-line" aria-hidden="true" />
-
-            <div className="ib-problem__tl-node">
-              <div className="ib-problem__tl-dot ib-problem__tl-dot--green" aria-hidden="true">★</div>
-              <div className="ib-problem__tl-text-block">
-                <p className="ib-problem__tl-time">T + 0</p>
-                <p className="ib-problem__tl-label">Intelliblock Intelligence</p>
-                <p className="ib-problem__tl-sub">Policy signal detected and scored</p>
-              </div>
-            </div>
-
-            <div className="ib-problem__tl-gap">
-              <span className="ib-problem__tl-gap-label">12 – 18 months</span>
-            </div>
-
-            <div className="ib-problem__tl-node ib-problem__tl-node--right">
-              <div className="ib-problem__tl-dot ib-problem__tl-dot--red" aria-hidden="true">✕</div>
-              <div className="ib-problem__tl-text-block">
-                <p className="ib-problem__tl-time">T + 12 to 18 months</p>
-                <p className="ib-problem__tl-label">Market Awareness</p>
-                <p className="ib-problem__tl-sub">Tender published. Window closed.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ProblemSection />
 
       {/* Differentiators — S4 */}
       <section className="ib-diff" aria-labelledby="ib-diff-headline">
