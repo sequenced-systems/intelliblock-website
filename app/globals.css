@@ -2665,3 +2665,310 @@ strong {
     font-size: 2rem;
   }
 }
+
+/* ============================================================
+   P0 FIXES — 2026-05-25
+   Proof Strip, Problem section, Differentiators (dark),
+   Sector Bar (8 sectors), Score Archive columns
+   ============================================================ */
+
+/* ===== PROOF STRIP (S2) ===== */
+.ib-proof-strip {
+  background-color: #0F1E35;
+  border-top: 1px solid rgba(196,146,42,0.2);
+  border-bottom: 1px solid rgba(196,146,42,0.2);
+  padding: 2.75rem 1.5rem;
+}
+
+.ib-proof-strip__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
+  align-items: center;
+}
+
+.ib-proof-strip__stat {
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+}
+
+.ib-proof-strip__value {
+  display: block;
+  font-size: 2.625rem;
+  font-weight: 700;
+  color: #C4922A;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.ib-proof-strip__label {
+  display: block;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8FA3C0;
+  line-height: 1.4;
+}
+
+.ib-proof-strip__divider {
+  width: 1px;
+  height: 52px;
+  background-color: #1E3050;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .ib-proof-strip__inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .ib-proof-strip__divider { display: none; }
+  .ib-proof-strip__stat { padding: 1rem; }
+  .ib-proof-strip__value { font-size: 2rem; }
+}
+
+/* ===== PROBLEM SECTION (S3) — dark navy, 2-col, timeline ===== */
+.ib-problem {
+  background-color: #0A1628;
+  padding: var(--section-padding);
+}
+
+.ib-problem__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.ib-problem__label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #C4922A;
+  margin-bottom: 1.5rem;
+}
+
+.ib-problem__headline {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #F5F7FA;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 2rem;
+}
+
+.ib-problem__body {
+  color: #8FA3C0;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  margin-bottom: 1.25rem;
+}
+
+.ib-problem__body:last-child {
+  margin-bottom: 0;
+}
+
+.ib-problem__callout {
+  color: #F5F7FA;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+/* Timeline graphic — right column */
+.ib-problem__timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.ib-problem__timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 3rem;
+  bottom: 3rem;
+  width: 1px;
+  background: linear-gradient(to bottom, #2ECC71 0%, #1E3050 40%, #E74C3C 100%);
+  transform: translateX(-50%);
+}
+
+.ib-problem__tl-node {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.ib-problem__tl-node--right {
+  flex-direction: row-reverse;
+}
+
+.ib-problem__tl-dot {
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.125rem;
+  flex-shrink: 0;
+  border: 2px solid currentColor;
+}
+
+.ib-problem__tl-dot--green {
+  color: #2ECC71;
+  background-color: rgba(46,204,113,0.1);
+}
+
+.ib-problem__tl-dot--red {
+  color: #E74C3C;
+  background-color: rgba(231,76,60,0.1);
+}
+
+.ib-problem__tl-text-block {
+  text-align: left;
+}
+
+.ib-problem__tl-node--right .ib-problem__tl-text-block {
+  text-align: right;
+}
+
+.ib-problem__tl-time {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8FA3C0;
+  margin-bottom: 0.25rem;
+}
+
+.ib-problem__tl-label {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #F5F7FA;
+  margin: 0;
+}
+
+.ib-problem__tl-sub {
+  font-size: 0.8125rem;
+  color: #8FA3C0;
+  margin: 0.125rem 0 0;
+}
+
+.ib-problem__tl-gap {
+  padding: 1.25rem 0;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.ib-problem__tl-gap-label {
+  background-color: #0A1628;
+  border: 1px solid #1E3050;
+  color: #C4922A;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.375rem 0.875rem;
+  display: inline-block;
+}
+
+@media (max-width: 900px) {
+  .ib-problem__inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .ib-problem__headline { font-size: 2rem; }
+}
+
+/* ===== DIFFERENTIATORS (S4) — dark card system ===== */
+.ib-diff {
+  background-color: #0F1E35;
+  padding: var(--section-padding);
+  border-top: 1px solid #1E3050;
+  border-bottom: 1px solid #1E3050;
+}
+
+.ib-diff__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.ib-diff__header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.ib-diff__headline {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #F5F7FA;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+.ib-diff__sub {
+  font-size: 1.0625rem;
+  color: #8FA3C0;
+  margin: 0;
+}
+
+.ib-diff__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.ib-diff-card {
+  background-color: #152036;
+  border: 1px solid #1E3050;
+  border-top: 3px solid #C4922A;
+  padding: 2rem 1.5rem;
+  position: relative;
+}
+
+.ib-diff-card__num {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #C4922A;
+  margin-bottom: 1.25rem;
+}
+
+.ib-diff-card__title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #F5F7FA;
+  margin-bottom: 0.875rem;
+  line-height: 1.4;
+}
+
+.ib-diff-card__body {
+  font-size: 0.875rem;
+  color: #8FA3C0;
+  line-height: 1.75;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .ib-diff__grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .ib-diff__grid { grid-template-columns: 1fr; }
+  .ib-diff__headline { font-size: 1.75rem; }
+}

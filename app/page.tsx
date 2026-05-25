@@ -46,46 +46,104 @@ export default function Home() {
 
       <HeroSection />
 
-      {/* The Problem */}
-      <section className="section section--white" aria-labelledby="problem-headline">
-        <div className="container">
-          <div className="problem-section">
-            <h2 className="section-headline" id="problem-headline">The decisive variable is not funding. It is timing.</h2>
-            <p>80% of African infrastructure projects that reach pre-feasibility never achieve financial close. The bottleneck is not available capital — DFI investment teams in London, Washington, and Abidjan are actively deploying. The bottleneck is bankable project identification, early.</p>
-            <p>The gap between government policy signal and market mobilisation is 12 to 18 months. During that window, the project is either positioned correctly or it is not. Intelliblock operates in that window. Big 4 firms and regional boutiques enter when the tender is published.</p>
+      {/* Proof Strip — S2 */}
+      <div className="ib-proof-strip" role="region" aria-label="Key metrics">
+        <div className="ib-proof-strip__inner">
+          <div className="ib-proof-strip__stat">
+            <span className="ib-proof-strip__value">87/100</span>
+            <span className="ib-proof-strip__label">Highest bankability score issued</span>
+          </div>
+          <div className="ib-proof-strip__divider" aria-hidden="true" />
+          <div className="ib-proof-strip__stat">
+            <span className="ib-proof-strip__value">12–18 mo</span>
+            <span className="ib-proof-strip__label">Lead time advantage over market consensus</span>
+          </div>
+          <div className="ib-proof-strip__divider" aria-hidden="true" />
+          <div className="ib-proof-strip__stat">
+            <span className="ib-proof-strip__value">£15K–25K</span>
+            <span className="ib-proof-strip__label">Rapid Assessment investment</span>
+          </div>
+          <div className="ib-proof-strip__divider" aria-hidden="true" />
+          <div className="ib-proof-strip__stat">
+            <span className="ib-proof-strip__value">NG → GH → KE</span>
+            <span className="ib-proof-strip__label">Intelligence geography</span>
+          </div>
+        </div>
+      </div>
+
+      {/* The Problem — S3 */}
+      <section className="ib-problem" aria-labelledby="ib-problem-headline">
+        <div className="ib-problem__inner">
+          <div>
+            <p className="ib-problem__label">The Problem</p>
+            <h2 className="ib-problem__headline" id="ib-problem-headline">
+              Nigeria generates more infrastructure policy signals per quarter than any economy in Sub-Saharan Africa. Most miss the window.
+            </h2>
+            <p className="ib-problem__body">
+              Policy announcements, DFI deployment statements, legislative shifts — they appear months before market consensus forms. By the time your competitors brief their investment committees, the Convergent Window has closed.
+            </p>
+            <p className="ib-problem__callout">Intelliblock reads the signals first.</p>
+          </div>
+
+          <div className="ib-problem__timeline" aria-label="Intelligence timing advantage">
+            <div className="ib-problem__timeline-line" aria-hidden="true" />
+
+            <div className="ib-problem__tl-node">
+              <div className="ib-problem__tl-dot ib-problem__tl-dot--green" aria-hidden="true">★</div>
+              <div className="ib-problem__tl-text-block">
+                <p className="ib-problem__tl-time">T + 0</p>
+                <p className="ib-problem__tl-label">Intelliblock Intelligence</p>
+                <p className="ib-problem__tl-sub">Policy signal detected and scored</p>
+              </div>
+            </div>
+
+            <div className="ib-problem__tl-gap">
+              <span className="ib-problem__tl-gap-label">12 – 18 months</span>
+            </div>
+
+            <div className="ib-problem__tl-node ib-problem__tl-node--right">
+              <div className="ib-problem__tl-dot ib-problem__tl-dot--red" aria-hidden="true">✕</div>
+              <div className="ib-problem__tl-text-block">
+                <p className="ib-problem__tl-time">T + 12 to 18 months</p>
+                <p className="ib-problem__tl-label">Market Awareness</p>
+                <p className="ib-problem__tl-sub">Tender published. Window closed.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Why Intelliblock */}
-      <section className="section section--grey" aria-labelledby="differentiators-headline">
-        <div className="container">
-          <h2 className="section-headline" id="differentiators-headline">Why Intelliblock</h2>
-          <p className="section-subhead">Four things that separate intelligence from advisory opinion.</p>
-          <div className="differentiators-grid mt-8">
+      {/* Differentiators — S4 */}
+      <section className="ib-diff" aria-labelledby="ib-diff-headline">
+        <div className="ib-diff__inner">
+          <div className="ib-diff__header">
+            <h2 className="ib-diff__headline" id="ib-diff-headline">Why Intelliblock</h2>
+            <p className="ib-diff__sub">Four things that separate intelligence from advisory opinion.</p>
+          </div>
+          <div className="ib-diff__grid">
 
-            <div className="differentiator-card">
-              <div className="differentiator-card__icon" aria-hidden="true">01</div>
-              <h3 className="differentiator-card__title">Ground Truth Over Estimates</h3>
-              <p className="differentiator-card__body">Every verdict is scored against 100 weighted criteria drawn from DFI underwriting standards. No assumptions. No desk research shortcuts. Auditable evidence for every point.</p>
+            <div className="ib-diff-card">
+              <div className="ib-diff-card__num" aria-hidden="true">01</div>
+              <h3 className="ib-diff-card__title">100-Point Bankability Framework V3.2</h3>
+              <p className="ib-diff-card__body">Five proprietary dimensions of deal viability. Not opinion. Structured scoring with traceable evidence for every point awarded.</p>
             </div>
 
-            <div className="differentiator-card">
-              <div className="differentiator-card__icon" aria-hidden="true">02</div>
-              <h3 className="differentiator-card__title">Infrastructure-Specific Methodology</h3>
-              <p className="differentiator-card__body">Built exclusively for African infrastructure origination. Not a sector-agnostic consulting framework adapted to Nigeria. Every scoring dimension reflects how DFIs actually approve deals.</p>
+            <div className="ib-diff-card">
+              <div className="ib-diff-card__num" aria-hidden="true">02</div>
+              <h3 className="ib-diff-card__title">Policy Convergence Intelligence</h3>
+              <p className="ib-diff-card__body">We track legislative, regulatory, DFI, and fiscal signals simultaneously. When 3+ domains converge: a Convergent Window opens.</p>
             </div>
 
-            <div className="differentiator-card">
-              <div className="differentiator-card__icon" aria-hidden="true">03</div>
-              <h3 className="differentiator-card__title">Investor &amp; Regulator Alignment</h3>
-              <p className="differentiator-card__body">Scoring maps directly to DFI investment committee requirements and Nigerian regulatory approval criteria — so the output speaks the language of both the capital provider and the approving authority.</p>
+            <div className="ib-diff-card">
+              <div className="ib-diff-card__num" aria-hidden="true">03</div>
+              <h3 className="ib-diff-card__title">12–18 Month Lead Time</h3>
+              <p className="ib-diff-card__body">Intelligence issued before market consensus. Not research — origination intelligence timed to the pre-mandate window.</p>
             </div>
 
-            <div className="differentiator-card">
-              <div className="differentiator-card__icon" aria-hidden="true">04</div>
-              <h3 className="differentiator-card__title">Quantified Decision Support</h3>
-              <p className="differentiator-card__body">A precise score and a verdict — Tier 1 Bankable, Conditional, or Not Yet Bankable — with category-level evidence. You receive a position, not a qualitative opinion.</p>
+            <div className="ib-diff-card">
+              <div className="ib-diff-card__num" aria-hidden="true">04</div>
+              <h3 className="ib-diff-card__title">Nigeria-First Precision</h3>
+              <p className="ib-diff-card__body">No continental generalism. Deep single-market expertise with on-the-ground signal sourcing and DFI relationship access from London.</p>
             </div>
 
           </div>
@@ -96,52 +154,60 @@ export default function Home() {
 
       <BankabilityShowcase />
 
-      {/* Sector Coverage */}
+      {/* Sector Coverage — S7 */}
       <div className="sector-bar" role="region" aria-label="Sectors covered">
         <div className="sector-bar__inner">
           <p className="sector-bar__label">Active coverage</p>
           <div className="sector-bar__sectors">
-            <span className="sector-pill">⚡ Power</span>
-            <span className="sector-pill">💧 Water &amp; Sanitation</span>
-            <span className="sector-pill">🚢 Transport &amp; Ports</span>
-            <span className="sector-pill">📡 Digital Infrastructure</span>
+            <span className="sector-pill">Power</span>
+            <span className="sector-pill">Water &amp; Sanitation</span>
+            <span className="sector-pill">Transport &amp; Ports</span>
+            <span className="sector-pill">Digital Infrastructure</span>
+            <span className="sector-pill">Road &amp; Rail</span>
+            <span className="sector-pill">Housing &amp; Urban</span>
+            <span className="sector-pill">Aviation</span>
+            <span className="sector-pill">Healthcare</span>
           </div>
         </div>
       </div>
 
-      {/* Score Archive Preview */}
+      {/* Score Archive Preview — S8 */}
       <section className="section section--dark" aria-labelledby="archive-headline">
         <div className="container">
-          <h2 className="section-headline section-headline--white" id="archive-headline">Recent intelligence — Bankability Score Archive</h2>
+          <h2 className="section-headline section-headline--white" id="archive-headline">Bankability Score Archive</h2>
           <p className="section-subhead section-subhead--white">Retrospective scores applied against known outcomes. Framework directional accuracy: 80% across Gate 1 validation cohort.</p>
           <div className="table-scroll">
-            <table className="data-table data-table--contained" aria-label="Recent bankability scores">
+            <table className="data-table data-table--contained" aria-label="Bankability score archive">
               <thead>
                 <tr>
-                  <th scope="col">Project</th>
-                  <th scope="col">Sector</th>
+                  <th scope="col">Signal</th>
+                  <th scope="col">Market</th>
                   <th scope="col">Score</th>
-                  <th scope="col">Verdict</th>
+                  <th scope="col">Tier</th>
+                  <th scope="col">Date</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Azura-Edo IPP</td>
-                  <td>Energy</td>
-                  <td><span className="score score--green">91/100</span></td>
-                  <td><span className="verdict-badge verdict-badge--green">Tier 1 — Bankable</span></td>
-                </tr>
-                <tr>
-                  <td>Dangote Fertiliser Complex</td>
-                  <td>Industrial</td>
-                  <td><span className="score score--green">91/100</span></td>
-                  <td><span className="verdict-badge verdict-badge--green">Tier 1 — Bankable</span></td>
-                </tr>
-                <tr>
-                  <td>Lekki Deep Sea Port</td>
-                  <td>Transport</td>
+                  <td>Bakassi Deep Seaport</td>
+                  <td>Nigeria</td>
                   <td><span className="score score--green">80/100</span></td>
-                  <td><span className="verdict-badge verdict-badge--green">Tier 1 — Bankable</span></td>
+                  <td><span className="verdict-badge verdict-badge--green">Tier 1</span></td>
+                  <td>2026</td>
+                </tr>
+                <tr>
+                  <td>Lagos–Abuja HSR</td>
+                  <td>Nigeria</td>
+                  <td><span className="score score--green">74/100</span></td>
+                  <td><span className="verdict-badge verdict-badge--green">Tier 1</span></td>
+                  <td>2026</td>
+                </tr>
+                <tr>
+                  <td>Abuja Light Rail Extension</td>
+                  <td>Nigeria</td>
+                  <td><span className="score score--amber">62/100</span></td>
+                  <td><span className="verdict-badge verdict-badge--amber">Tier 2</span></td>
+                  <td>2026</td>
                 </tr>
               </tbody>
             </table>
