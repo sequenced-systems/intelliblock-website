@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import HeroSection from '../components/HeroSection'
 
 export const metadata: Metadata = {
   title: 'Intelliblock Consulting — Nigeria Infrastructure Bankability Intelligence',
@@ -41,47 +42,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      {/* Hero */}
-      <section className="hero hero--full page-offset" aria-labelledby="hero-headline">
-        <div className="hero__inner">
-          <p className="hero__eyebrow">Nigeria Infrastructure Intelligence</p>
-          <h1 className="hero__headline" id="hero-headline">
-            Navigate Nigeria&apos;s infrastructure complexity<br className="hero__headline-break" /> with proprietary market intelligence.
-          </h1>
-          <p className="hero__sub">
-            Intelliblock converts government policy signals into bankable infrastructure transactions before the market mobilises — using the only AI-native Policy Convergence detection system operating in the Nigerian infrastructure market.
-          </p>
-          <div className="hero__actions">
-            <Link href="/framework" className="btn btn--primary">See how we score opportunities &rarr;</Link>
-            <a href="https://intelliblock.setmore.com/ayodeji" className="btn btn--ghost" rel="noopener noreferrer" target="_blank">Book a 30-minute discovery call</a>
-          </div>
-          <p className="hero__tag">
-            <span>Focus market: Nigeria</span> &nbsp;&bull;&nbsp; <span>Established: 2025</span> &nbsp;&bull;&nbsp; <span>Portsmouth, UK</span>
-          </p>
-        </div>
-      </section>
-
-      {/* Stats Bar */}
-      <div className="stats-bar" role="region" aria-label="Key metrics">
-        <div className="stats-bar__inner">
-          <div className="stat-item">
-            <span className="stat-item__number">12–18<span className="stat-unit"> mo</span></span>
-            <span className="stat-item__label">Market lead time advantage over standard advisory</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-item__number">100<span className="stat-unit">-pt</span></span>
-            <span className="stat-item__label">Bankability Framework — evidence-backed, auditable</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-item__number">4</span>
-            <span className="stat-item__label">Sectors: Power · Water · Transport · Digital</span>
-          </div>
-          <div className="stat-item">
-            <span className="stat-item__number">5–7<span className="stat-unit"> days</span></span>
-            <span className="stat-item__label">Rapid Assessment delivery, from brief to verdict</span>
-          </div>
-        </div>
-      </div>
+      <HeroSection />
 
       {/* The Problem */}
       <section className="section section--white" aria-labelledby="problem-headline">
