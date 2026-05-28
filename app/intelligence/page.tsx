@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Intelligence Archive',
-  description: 'Nigeria infrastructure bankability score archive and published intelligence output. Gate 1: 4 of 5 retrospective scores directionally correct. Framework version V3.2.',
+  description: 'Nigeria infrastructure bankability score archive and published intelligence output. Gate 1: 4 of 5 retrospective scores directionally correct. Framework version V3.3.',
   alternates: { canonical: 'https://intelliblockconsulting.com/intelligence/' },
 }
 
@@ -36,11 +36,25 @@ export default function IntelligencePage() {
             <span className="stat-item__label">Framework directional accuracy (Gate 1)</span>
           </div>
           <div className="stat-item">
-            <span className="stat-item__number">V3.2</span>
+            <span className="stat-item__number">V3.3</span>
             <span className="stat-item__label">Current framework version</span>
           </div>
         </div>
       </div>
+
+      {/* Sample Brief CTA */}
+      <section className="section section--grey" aria-labelledby="sample-cta-headline">
+        <div className="container" style={{textAlign:'center'}}>
+          <p className="hero__eyebrow" style={{marginBottom:'0.75rem'}}>See the methodology in action</p>
+          <h2 className="section-headline" id="sample-cta-headline" style={{marginBottom:'1rem'}}>Read a complete Signal Brief</h2>
+          <p className="text-secondary max-w-520 mb-7 leading-relaxed mx-auto">
+            A full sample bankability assessment — AFC/SMDF $1.3B Alumina Refinery, Nigeria, scored 80/100. Signal Brief + Scoring Card, ungated.
+          </p>
+          <Link href="/intelligence/sample" className="cta-primary" aria-label="Read sample Signal Brief">
+            Read the sample brief &rarr;
+          </Link>
+        </div>
+      </section>
 
       {/* Score Archive Table */}
       <section className="section section--white" aria-labelledby="score-archive-headline">
@@ -104,7 +118,7 @@ export default function IntelligencePage() {
             </table>
           </div>
           <div className="archive-note">
-            Scores are retrospective — applied as at signal date, before outcomes were known. Gate 1 directional accuracy: 80–100%. The Lagos–Ibadan SGR result (sovereign bilateral completion) is classified as nuanced: the project completed via a route that bypasses standard DFI bankability criteria. Framework version at scoring: V3.2.
+            Scores are retrospective — applied as at signal date, before outcomes were known. Gate 1 directional accuracy: 80–100%. The Lagos–Ibadan SGR result (sovereign bilateral completion) is classified as nuanced: the project completed via a route that bypasses standard DFI bankability criteria. Framework version at scoring: V3.2. Current framework: V3.3.
           </div>
         </div>
       </section>
@@ -186,6 +200,42 @@ export default function IntelligencePage() {
                 <span>B5</span>
               </div>
               <Link href="/contact" className="article-card__link" aria-label="Read: The Infrapreneur Checklist (full text via subscription)">Read &rarr;</Link>
+            </article>
+
+            <article className="card article-card" aria-labelledby="a5-title">
+              <div className="article-card__tag">
+                <span className="tag">Nigeria Lens</span>
+              </div>
+              <h3 className="article-card__title" id="a5-title">Nigeria&apos;s Blue Economy Infrastructure: Ports, Fisheries, and the Coastal Logistics Opportunity</h3>
+              <div className="article-card__meta">
+                <span>May 2026</span>
+                <span>A5</span>
+              </div>
+              <Link href="/contact" className="article-card__link" aria-label="Read: Nigeria Blue Economy (full text via subscription)">Read &rarr;</Link>
+            </article>
+
+            <article className="card article-card" aria-labelledby="a6-title">
+              <div className="article-card__tag">
+                <span className="tag">Timing Thesis</span>
+              </div>
+              <h3 className="article-card__title" id="a6-title">Policy Convergence: Why the Projects That Close Are Not the Projects That Were Announced</h3>
+              <div className="article-card__meta">
+                <span>May 2026</span>
+                <span>A6</span>
+              </div>
+              <Link href="/contact" className="article-card__link" aria-label="Read: Policy Convergence (full text via subscription)">Read &rarr;</Link>
+            </article>
+
+            <article className="card article-card" aria-labelledby="a7-title">
+              <div className="article-card__tag">
+                <span className="tag">Intelligence Architecture</span>
+              </div>
+              <h3 className="article-card__title" id="a7-title">The Intelligence Architecture Behind Intelliblock: How a Governed Knowledge Corpus Turns Policy Noise into Bankable Signals</h3>
+              <div className="article-card__meta">
+                <span>May 2026</span>
+                <span>A7</span>
+              </div>
+              <Link href="/contact" className="article-card__link" aria-label="Read: Intelligence Architecture (full text via subscription)">Read &rarr;</Link>
             </article>
 
           </div>

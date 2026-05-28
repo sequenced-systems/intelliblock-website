@@ -3257,3 +3257,141 @@ strong {
   .ib-diff__grid { grid-template-columns: 1fr; }
   .ib-diff__headline { font-size: 1.75rem; }
 }
+
+/* ─── Signal Brief / Sample Page ─── */
+.brief-document {
+  max-width: 760px;
+  margin: 0 auto 3.5rem;
+}
+
+.brief-meta-block {
+  background: var(--bg-dark, #0B1220);
+  border: 1px solid rgba(196,146,42,0.25);
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.brief-meta-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--accent-gold, #C4922A);
+  margin-bottom: 1rem;
+}
+
+.brief-meta-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.brief-meta-table th {
+  text-align: left;
+  width: 140px;
+  padding: 0.35rem 0.75rem 0.35rem 0;
+  color: var(--text-secondary);
+  font-weight: 500;
+  vertical-align: top;
+}
+
+.brief-meta-table td {
+  padding: 0.35rem 0;
+  color: var(--text-primary, #F5F7FA);
+  line-height: 1.5;
+}
+
+.brief-section {
+  margin-bottom: 2.25rem;
+  padding-bottom: 2.25rem;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.brief-section:last-child {
+  border-bottom: none;
+}
+
+.brief-section-heading {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--accent-gold, #C4922A);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.brief-section p {
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  color: var(--text-primary, #F5F7FA);
+  margin-bottom: 0.75rem;
+}
+
+.brief-section p:last-child {
+  margin-bottom: 0;
+}
+
+.brief-evidence-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.brief-evidence-list li {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--text-primary, #F5F7FA);
+  padding: 0.75rem 0 0.75rem 1.25rem;
+  border-left: 3px solid rgba(196,146,42,0.35);
+  margin-bottom: 0.75rem;
+}
+
+.brief-evidence-list li em {
+  color: var(--text-secondary);
+  font-style: normal;
+}
+
+.demo-note {
+  background: rgba(196,146,42,0.06);
+  border: 1px solid rgba(196,146,42,0.2);
+  border-radius: 6px;
+  padding: 2rem 2.25rem;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.demo-note__headline {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent-gold, #C4922A);
+  margin-bottom: 1rem;
+}
+
+.demo-note p {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.demo-note p:last-child {
+  margin-bottom: 0;
+}
+
+.disclaimer-text {
+  font-size: 0.8125rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  max-width: 720px;
+  margin: 0 auto 0.75rem;
+}
+
+.disclaimer-text:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .brief-meta-block { padding: 1.25rem; }
+  .brief-meta-table th { width: 90px; }
+  .demo-note { padding: 1.25rem 1.5rem; }
+}
