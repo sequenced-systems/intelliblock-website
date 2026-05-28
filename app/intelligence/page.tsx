@@ -123,8 +123,22 @@ export default function IntelligencePage() {
         </div>
       </section>
 
+      {/* Live HEARTBEAT Output */}
+      <section className="section section--grey" aria-labelledby="live-output-headline">
+        <div className="container" style={{textAlign:'center'}}>
+          <p className="hero__eyebrow" style={{marginBottom:'0.75rem'}}>Active pipeline output</p>
+          <h2 className="section-headline" id="live-output-headline" style={{marginBottom:'1rem'}}>Live Signal Brief Archive</h2>
+          <p className="text-secondary max-w-520 mb-7 leading-relaxed mx-auto">
+            Every brief scored ≥60/100 by the HEARTBEAT pipeline — updated daily. Titles and scores are public. Full text is gated.
+          </p>
+          <Link href="/intelligence/briefs" className="cta-primary" aria-label="View live signal brief archive">
+            View live archive &rarr;
+          </Link>
+        </div>
+      </section>
+
       {/* Articles */}
-      <section className="section section--grey" aria-labelledby="articles-headline">
+      <section className="section section--white" aria-labelledby="articles-headline">
         <div className="container">
           <h2 className="section-headline" id="articles-headline">Intelligence Output — Published Articles</h2>
           <p className="section-subhead">Analysis published under the Intelliblock intelligence standard. Full text available via subscription access.</p>
