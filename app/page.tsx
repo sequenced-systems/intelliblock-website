@@ -8,11 +8,11 @@ import BankabilityShowcase from '../components/BankabilityShowcase'
 export const metadata: Metadata = {
   title: 'Intelliblock Consulting — Nigeria Infrastructure Bankability Intelligence',
   description: 'Intelliblock converts government policy signals into bankable Nigerian infrastructure transactions 12–18 months before market consensus, using the 100-Point Bankability Framework V3.2.',
-  alternates: { canonical: 'https://intelliblockconsulting.com/' },
+  alternates: { canonical: 'https://www.intelliblockconsulting.com/' },
   openGraph: {
     title: 'Intelliblock Consulting — Nigeria Infrastructure Bankability Intelligence',
     description: 'Converting government policy signals into bankable Nigerian infrastructure transactions 12–18 months before market consensus.',
-    url: 'https://intelliblockconsulting.com/',
+    url: 'https://www.intelliblockconsulting.com/',
   },
 }
 
@@ -20,7 +20,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'ProfessionalService',
   name: 'Intelliblock Consulting',
-  url: 'https://intelliblockconsulting.com',
+  url: 'https://www.intelliblockconsulting.com',
   description: "Africa's premier policy convergence infrastructure opportunity origination firm. Converting government policy signals into bankable Nigerian infrastructure transactions 12–18 months before market consensus.",
   address: {
     '@type': 'PostalAddress',

@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Services',
   description: 'Rapid Assessment Plus (5–7 day bankability assessment) and Policy Convergence Intelligence (monthly Nigeria infrastructure signal subscription). Both built on the 100-Point Bankability Framework V3.2.',
-  alternates: { canonical: 'https://intelliblockconsulting.com/services/' },
+  alternates: { canonical: 'https://www.intelliblockconsulting.com/services/' },
 }
 
 export default function ServicesPage() {

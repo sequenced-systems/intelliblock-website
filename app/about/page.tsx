@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'The Intelligence System',
   description: 'Intelliblock is an AI-native intelligence infrastructure built to detect bankable Nigerian infrastructure opportunities 12 to 18 months before the market. The structural argument and founder credentials.',
-  alternates: { canonical: 'https://intelliblockconsulting.com/about/' },
+  alternates: { canonical: 'https://www.intelliblockconsulting.com/about/' },
 }
 
 export default function AboutPage() {

@@ -20,12 +20,16 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://intelliblockconsulting.com'),
+  metadataBase: new URL('https://www.intelliblockconsulting.com'),
   title: {
     default: 'Intelliblock Consulting — Nigeria Infrastructure Bankability Intelligence',
     template: '%s — Intelliblock Consulting',
   },
   description: 'Intelliblock converts government policy signals into bankable Nigerian infrastructure transactions 12–18 months before market consensus, using the 100-Point Bankability Framework V3.2.',
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   openGraph: {
     type: 'website',
     siteName: 'Intelliblock Consulting',

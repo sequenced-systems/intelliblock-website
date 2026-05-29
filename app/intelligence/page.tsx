@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Intelligence Archive',
-  description: 'Nigeria infrastructure bankability score archive and published intelligence output. Gate 1: 4 of 5 retrospective scores directionally correct. Framework version V3.3.',
-  alternates: { canonical: 'https://intelliblockconsulting.com/intelligence/' },
+  description: 'Nigeria infrastructure bankability score archive and published intelligence output. Gate 1: 4 of 5 retrospective scores directionally correct. Framework version V3.2.',
+  alternates: { canonical: 'https://www.intelliblockconsulting.com/intelligence/' },
 }
 
 export default function IntelligencePage() {
@@ -36,7 +36,7 @@ export default function IntelligencePage() {
             <span className="stat-item__label">Framework directional accuracy (Gate 1)</span>
           </div>
           <div className="stat-item">
-            <span className="stat-item__number">V3.3</span>
+            <span className="stat-item__number">V3.2</span>
             <span className="stat-item__label">Current framework version</span>
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function IntelligencePage() {
             </table>
           </div>
           <div className="archive-note">
-            Scores are retrospective — applied as at signal date, before outcomes were known. Gate 1 directional accuracy: 80–100%. The Lagos–Ibadan SGR result (sovereign bilateral completion) is classified as nuanced: the project completed via a route that bypasses standard DFI bankability criteria. Framework version at scoring: V3.2. Current framework: V3.3.
+            Scores are retrospective — applied as at signal date, before outcomes were known. Gate 1 directional accuracy: 80–100%. The Lagos–Ibadan SGR result (sovereign bilateral completion) is classified as nuanced: the project completed via a route that bypasses standard DFI bankability criteria. Framework version at scoring: V3.2. Current framework: V3.2.
           </div>
         </div>
       </section>

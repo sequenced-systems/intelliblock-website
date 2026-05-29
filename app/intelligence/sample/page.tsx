@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Sample Signal Brief — AFC/Federal Government Alumina Refinery | Intelliblock',
-  description: 'Sample bankability assessment: AFC/SMDF $1.3B Alumina Refinery MoU, Nigeria. Bankability score 80/100. Produced by the 100-Point Bankability Framework V3.3.',
-  alternates: { canonical: 'https://intelliblockconsulting.com/intelligence/sample/' },
+  description: 'Sample bankability assessment: AFC/SMDF $1.3B Alumina Refinery MoU, Nigeria. Bankability score 80/100. Produced by the 100-Point Bankability Framework V3.2.',
+  alternates: { canonical: 'https://www.intelliblockconsulting.com/intelligence/sample/' },
 }
 
 export default function SampleBriefPage() {
@@ -140,7 +140,7 @@ export default function SampleBriefPage() {
           <div className="demo-note" role="complementary" aria-labelledby="demo-note-headline">
             <h2 className="demo-note__headline" id="demo-note-headline">What this brief demonstrates</h2>
             <p>This signal was identified through Intelliblock&apos;s HEARTBEAT system — continuous monitoring of Nigerian policy, DFI deployment, and infrastructure procurement across five domains simultaneously.</p>
-            <p>The 80/100 bankability score is produced by the <strong>100-Point Bankability Framework V3.3</strong> — Intelliblock&apos;s proprietary scoring methodology assessing Political Commitment, Fiscal Capacity, Implementation Readiness, Commercial Viability, and Policy Convergence. The CBN monetary signal (+3pt adjustment) was captured in a separate daily scan and cross-applied to all active pipeline entries — an example of multi-domain convergence intelligence working as designed.</p>
+            <p>The 80/100 bankability score is produced by the <strong>100-Point Bankability Framework V3.2</strong> — Intelliblock&apos;s proprietary scoring methodology assessing Political Commitment, Fiscal Capacity, Implementation Readiness, Commercial Viability, and Policy Convergence. The CBN monetary signal (+3pt adjustment) was captured in a separate daily scan and cross-applied to all active pipeline entries — an example of multi-domain convergence intelligence working as designed.</p>
             <p>This brief was produced within 21 days of the MoU signing. Standard market analysis had not yet identified the advisory opportunity.</p>
           </div>
 

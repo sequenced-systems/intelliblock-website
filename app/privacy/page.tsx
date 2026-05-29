@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'Intelliblock Consulting privacy policy — how we collect, use, and protect your personal data under UK GDPR and Nigeria NDPA.',
-  alternates: { canonical: 'https://intelliblockconsulting.com/privacy/' },
+  alternates: { canonical: 'https://www.intelliblockconsulting.com/privacy/' },
   robots: { index: false },
 }
 

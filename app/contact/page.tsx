@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Contact',
   description: 'Contact Intelliblock Consulting for Rapid Assessment Plus scope discussions, Policy Convergence Intelligence subscription enquiries, or to book a 30-minute discovery call.',
-  alternates: { canonical: 'https://intelliblockconsulting.com/contact/' },
+  alternates: { canonical: 'https://www.intelliblockconsulting.com/contact/' },
 }
 
 export default function ContactPage() {

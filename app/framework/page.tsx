@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'The 100-Point Bankability Framework V3.2',
   description: 'The analytical instrument that converts a Nigeria infrastructure policy signal into a scored bankability verdict. Category structure, score thresholds, binary gates, and a worked example.',
-  alternates: { canonical: 'https://intelliblockconsulting.com/framework/' },
+  alternates: { canonical: 'https://www.intelliblockconsulting.com/framework/' },
 }
 
 export default function FrameworkPage() {
