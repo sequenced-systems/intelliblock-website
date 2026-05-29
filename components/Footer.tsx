@@ -52,7 +52,7 @@ export default function Footer() {
         <div className="site-footer__bottom">
           <p className="site-footer__copyright">&copy; 2026 Intelliblock Consulting. All rights reserved. Registered in England &amp; Wales.</p>
           <div className="site-footer__social">
-            <a href="#" rel="noopener noreferrer" target="_blank" aria-label="Intelliblock on LinkedIn">in</a>
+            <a href="https://www.linkedin.com/company/109212959/" rel="noopener noreferrer" target="_blank" aria-label="Intelliblock on LinkedIn">in</a>
           </div>
         </div>
       </div>
