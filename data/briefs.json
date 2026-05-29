@@ -1,1 +1,56 @@
-{ "exported_at": null, "count": 0, "briefs": [] }
+{
+  "exported_at": "2026-05-29T11:24:23Z",
+  "count": 3,
+  "briefs": [
+    {
+      "signal_id": "SIGNAL-002",
+      "title": "Nigeria and IFC Sign Agreement to Boost Infrastructure Development Through Public-Private Partnerships",
+      "market": "Nigeria",
+      "sector": "Economic Policy",
+      "domains": [
+        "Economic Policy",
+        "Monetary"
+      ],
+      "bankability_score": 72,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-05-21",
+      "delivered_at": "2026-05-21T09:32:38.850049+00:00",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-[AUTO]",
+      "title": "Nigeria and IFC Sign Agreement to Boost Infrastructure Development Through Public-Private Partnerships",
+      "market": "Nigeria",
+      "sector": "Macroeconomics",
+      "domains": [
+        "Macroeconomics",
+        "Monetary Policy",
+        "Financial Markets"
+      ],
+      "bankability_score": 78,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-05-21",
+      "delivered_at": "2026-05-21T09:31:39.521547+00:00",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-004",
+      "title": "$22BN Required for Nigeria’s Gas Pipeline Infrastructure",
+      "market": "Nigeria",
+      "sector": "DFI",
+      "domains": [
+        "DFI",
+        "Continental Integration",
+        "Infrastructure"
+      ],
+      "bankability_score": 63,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-05-18",
+      "delivered_at": "2026-05-18T09:31:51.956374+00:00",
+      "admiralty_code": "F6"
+    }
+  ]
+}
