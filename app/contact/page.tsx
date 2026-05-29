@@ -63,6 +63,12 @@ export default function ContactPage() {
             method="POST"
             aria-label="Contact form"
           >
+            {/* Honeypot — hidden from humans, catches bots */}
+            <div style={{ display: 'none' }} aria-hidden="true">
+              <label htmlFor="contact-website">Website</label>
+              <input type="text" id="contact-website" name="website" tabIndex={-1} autoComplete="off" />
+            </div>
+
             <div className="form-group">
               <label className="form-label" htmlFor="contact-name">Name</label>
               <input

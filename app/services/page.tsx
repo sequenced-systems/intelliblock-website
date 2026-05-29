@@ -116,6 +116,51 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* How We Work */}
+      <section className="section section--white" aria-labelledby="how-we-work-headline">
+        <div className="container">
+          <div className="how-we-work__header" data-animate="fade-up">
+            <h2 className="section-headline" id="how-we-work-headline">How an engagement begins</h2>
+            <p className="body-md max-w-720">Most clients enter through intelligence — a signal brief or article that confirms Intelliblock tracks their sector. Engagements follow a defined progression.</p>
+          </div>
+          <div className="how-we-work__steps" data-animate="stagger">
+
+            <div className="how-we-work__step">
+              <div className="how-we-work__step-num" aria-hidden="true">01</div>
+              <div className="how-we-work__step-body">
+                <h3 className="how-we-work__step-title">Signal Origination</h3>
+                <p className="how-we-work__step-desc">Subscribe to Policy Convergence Intelligence. Receive 2–3 scored Signal Briefs per month — each identifying a Nigeria infrastructure opportunity window 12–18 months before market consensus.</p>
+                <span className="how-we-work__step-price">£3,500–5,000 / month</span>
+              </div>
+            </div>
+
+            <div className="how-we-work__connector" aria-hidden="true" />
+
+            <div className="how-we-work__step">
+              <div className="how-we-work__step-num" aria-hidden="true">02</div>
+              <div className="how-we-work__step-body">
+                <h3 className="how-we-work__step-title">Rapid Assessment Plus</h3>
+                <p className="how-we-work__step-desc">Commission a 5–7 day bankability assessment on a specific project. Receive a structured Bankable Brief with a 100-point score, category-level evidence, and a clear mandate recommendation.</p>
+                <span className="how-we-work__step-price">£15,000–25,000</span>
+              </div>
+            </div>
+
+            <div className="how-we-work__connector" aria-hidden="true" />
+
+            <div className="how-we-work__step">
+              <div className="how-we-work__step-num" aria-hidden="true">03</div>
+              <div className="how-we-work__step-body">
+                <h3 className="how-we-work__step-title">Ongoing Intelligence Retainer</h3>
+                <p className="how-we-work__step-desc">For teams with standing Nigeria mandates: a retained PCI subscription with priority signal delivery, monthly sector summaries, and direct access to the Managing Director for signal interpretation.</p>
+                <span className="how-we-work__step-price">Custom arrangement</span>
+              </div>
+            </div>
+
+          </div>
+          <p className="how-we-work__note" data-animate="fade-up">Not sure where to start? A 30-minute discovery call covers your mandate and the right entry point.</p>
+        </div>
+      </section>
+
       {/* CTA Strip */}
       <div className="cta-strip">
         <div className="cta-strip__inner">

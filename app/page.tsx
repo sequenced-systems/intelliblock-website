@@ -48,7 +48,7 @@ export default function Home() {
       <HeroSection />
 
       {/* Proof Strip — S2 */}
-      <div className="ib-proof-strip" role="region" aria-label="Key metrics">
+      <div className="ib-proof-strip" role="region" aria-label="Key metrics" data-animate="stagger">
         <div className="ib-proof-strip__inner">
           <div className="ib-proof-strip__stat">
             <span className="ib-proof-strip__value">87/100</span>
@@ -78,11 +78,11 @@ export default function Home() {
       {/* Differentiators — S4 */}
       <section className="ib-diff" aria-labelledby="ib-diff-headline">
         <div className="ib-diff__inner">
-          <div className="ib-diff__header">
+          <div className="ib-diff__header" data-animate="fade-up">
             <h2 className="ib-diff__headline" id="ib-diff-headline">Why Intelliblock</h2>
             <p className="ib-diff__sub">Four things that separate intelligence from advisory opinion.</p>
           </div>
-          <div className="ib-diff__grid">
+          <div className="ib-diff__grid" data-animate="stagger">
 
             <div className="ib-diff-card">
               <div className="ib-diff-card__num" aria-hidden="true">01</div>
@@ -117,7 +117,7 @@ export default function Home() {
       <BankabilityShowcase />
 
       {/* Sector Coverage — S7 */}
-      <div className="sector-bar" role="region" aria-label="Sectors covered">
+      <div className="sector-bar" role="region" aria-label="Sectors covered" data-animate="fade-up">
         <div className="sector-bar__inner">
           <p className="sector-bar__label">Active coverage</p>
           <div className="sector-bar__sectors">
@@ -134,7 +134,7 @@ export default function Home() {
       </div>
 
       {/* Score Archive Preview — S8 */}
-      <section className="section section--dark" aria-labelledby="archive-headline">
+      <section className="section section--dark" aria-labelledby="archive-headline" data-animate="fade-up">
         <div className="container">
           <h2 className="section-headline section-headline--white" id="archive-headline">Bankability Score Archive</h2>
           <p className="section-subhead section-subhead--white">Retrospective scores applied against known outcomes. Framework directional accuracy: 80% across Gate 1 validation cohort.</p>
@@ -183,8 +183,8 @@ export default function Home() {
       {/* Latest Intelligence */}
       <section className="section section--white" aria-labelledby="intel-headline">
         <div className="container">
-          <h2 className="section-headline" id="intel-headline">Latest intelligence output</h2>
-          <div className="grid-3 mt-8">
+          <h2 className="section-headline" id="intel-headline" data-animate="fade-up">Latest intelligence output</h2>
+          <div className="grid-3 mt-8" data-animate="stagger">
 
             <article className="card article-card" aria-labelledby="art1-title">
               <div className="article-card__tag">
@@ -226,12 +226,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Newsletter CTA */}
-      <section className="newsletter-strip" aria-labelledby="newsletter-headline">
+      {/* Newsletter CTA — S10 */}
+      <section className="newsletter-strip" aria-labelledby="newsletter-headline" data-animate="fade-up">
         <div className="container">
           <div className="newsletter-strip__inner">
             <div className="newsletter-strip__copy">
-              <h2 className="newsletter-strip__headline" id="newsletter-headline">Stay 12 months ahead of the market.</h2>
+              <h2 className="newsletter-strip__headline" id="newsletter-headline">Infrastructure intelligence. Issued before the window closes.</h2>
               <p className="newsletter-strip__sub">Signal Briefs and policy landscape summaries — delivered to infrastructure teams who cannot afford to be late.</p>
             </div>
             <form
@@ -240,6 +240,11 @@ export default function Home() {
               method="POST"
               aria-label="Subscribe to intelligence updates"
             >
+              {/* Honeypot — hidden from humans, catches bots */}
+              <div style={{ display: 'none' }} aria-hidden="true">
+                <label htmlFor="newsletter-website">Website</label>
+                <input type="text" id="newsletter-website" name="website" tabIndex={-1} autoComplete="off" />
+              </div>
               <label htmlFor="newsletter-email" className="visually-hidden">Your email address</label>
               <input
                 type="email"

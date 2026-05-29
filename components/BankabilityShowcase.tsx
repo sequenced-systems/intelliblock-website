@@ -1,3 +1,6 @@
+'use client'
+import { useEffect, useRef, useState } from 'react'
+
 const DIMENSIONS = [
   { code: 'C1', label: 'Policy Alignment',  score: 18, max: 20 },
   { code: 'C2', label: 'DFI Readiness',     score: 16, max: 20 },
@@ -6,12 +9,55 @@ const DIMENSIONS = [
   { code: 'C5', label: 'Risk Profile',      score: 14, max: 20 },
 ]
 
-// Semicircle arc length = π × 96 ≈ 301.6
 const ARC_TOTAL = 301.6
 const SCORE = 80
 const ARC_FILLED = (SCORE / 100) * ARC_TOTAL
+const DASHOFFSET_FULL = ARC_TOTAL
+const DASHOFFSET_TARGET = ARC_TOTAL - ARC_FILLED
 
 export default function BankabilityShowcase() {
+  const ref = useRef<HTMLDivElement>(null)
+  const [visible, setVisible] = useState(false)
+  const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    if (prefersReduced) {
+      setVisible(true)
+      setCount(SCORE)
+      return
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true)
+          observer.disconnect()
+        }
+      },
+      { threshold: 0.2 }
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [])
+
+  useEffect(() => {
+    if (!visible) return
+    const duration = 1200
+    const start = Date.now()
+    const tick = () => {
+      const elapsed = Date.now() - start
+      const progress = Math.min(elapsed / duration, 1)
+      const eased = 1 - Math.pow(1 - progress, 3)
+      setCount(Math.round(eased * SCORE))
+      if (progress < 1) requestAnimationFrame(tick)
+    }
+    requestAnimationFrame(tick)
+  }, [visible])
+
   return (
     <section className="ib-showcase" aria-labelledby="ib-showcase-headline">
       <div className="ib-showcase__inner">
@@ -39,7 +85,7 @@ export default function BankabilityShowcase() {
         </div>
 
         {/* Right — Score visualisation */}
-        <div className="ib-showcase__right">
+        <div className="ib-showcase__right" ref={ref}>
           <div className="ib-scorecard">
             <div className="ib-scorecard__header">
               <span className="ib-scorecard__tag">Bankability Score</span>
@@ -60,19 +106,20 @@ export default function BankabilityShowcase() {
                   stroke="#C4922A"
                   strokeWidth="10"
                   strokeLinecap="round"
-                  strokeDasharray={`${ARC_FILLED} ${ARC_TOTAL}`}
+                  strokeDasharray={`${ARC_TOTAL} ${ARC_TOTAL}`}
+                  strokeDashoffset={visible ? DASHOFFSET_TARGET : DASHOFFSET_FULL}
                   fill="none"
                   className="ib-gauge__fill"
                 />
               </svg>
               <div className="ib-gauge__value">
-                {SCORE}<span>/100</span>
+                {count}<span>/100</span>
               </div>
               <div className="ib-gauge__label">Tier 1 Bankable</div>
             </div>
 
             <div className="ib-dims">
-              {DIMENSIONS.map(dim => (
+              {DIMENSIONS.map((dim, i) => (
                 <div key={dim.code} className="ib-dim">
                   <div className="ib-dim__meta">
                     <span className="ib-dim__code">{dim.code}</span>
@@ -88,7 +135,10 @@ export default function BankabilityShowcase() {
                   >
                     <div
                       className="ib-dim__fill"
-                      style={{ width: `${(dim.score / dim.max) * 100}%` }}
+                      style={{
+                        width: visible ? `${(dim.score / dim.max) * 100}%` : '0%',
+                        transitionDelay: visible ? `${i * 0.12}s` : '0s',
+                      }}
                     />
                   </div>
                 </div>
