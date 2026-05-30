@@ -131,6 +131,9 @@ export default function IntelligencePage() {
           <p className="text-secondary max-w-520 mb-7 leading-relaxed mx-auto">
             Every brief scored ≥60/100 by the HEARTBEAT pipeline — updated daily. Titles and scores are public. Full text is gated.
           </p>
+          <p className="text-secondary max-w-520 mb-7 leading-relaxed mx-auto" style={{fontSize:'0.875rem'}}>
+            Briefs are drawn from a governed knowledge corpus of over 1,500 curated intelligence items across 39 monitored topic clusters. Each cluster carries a confidence index updated continuously as new evidence is processed — scores are not snapshots, they are tracked positions.
+          </p>
           <Link href="/intelligence/briefs" className="cta-primary" aria-label="View live signal brief archive">
             View live archive &rarr;
           </Link>

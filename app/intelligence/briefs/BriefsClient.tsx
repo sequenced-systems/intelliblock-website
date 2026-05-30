@@ -20,10 +20,12 @@ interface SignalBrief {
 interface BriefsPayload {
   exported_at: string | null
   count: number
+  corpus_total: number | null
+  cluster_count: number | null
   briefs: SignalBrief[]
 }
 
-const EMPTY: BriefsPayload = { exported_at: null, count: 0, briefs: [] }
+const EMPTY: BriefsPayload = { exported_at: null, count: 0, corpus_total: null, cluster_count: null, briefs: [] }
 
 function scoreClass(score: number) {
   return score >= 80 ? 'score--green' : 'score--amber'
@@ -55,7 +57,7 @@ export default function BriefsClient() {
       .finally(() => setLoading(false))
   }, [])
 
-  const { count, briefs } = data
+  const { count, corpus_total, cluster_count, briefs } = data
   const latestDate = briefs.length ? formatDate(briefs[0].delivered_at) : '—'
 
   return (
@@ -78,15 +80,15 @@ export default function BriefsClient() {
         <div className="stats-bar__inner">
           <div className="stat-item">
             <span className="stat-item__number">{loading ? '—' : count}</span>
-            <span className="stat-item__label">Scored briefs in archive</span>
+            <span className="stat-item__label">Briefs published (score ≥60)</span>
           </div>
           <div className="stat-item">
-            <span className="stat-item__number">60+</span>
-            <span className="stat-item__label">Minimum bankability score</span>
+            <span className="stat-item__number">{loading || !corpus_total ? '—' : corpus_total.toLocaleString()}</span>
+            <span className="stat-item__label">Intelligence items in corpus</span>
           </div>
           <div className="stat-item">
-            <span className="stat-item__number" style={{fontSize:'1rem', lineHeight:'1.3'}}>Daily</span>
-            <span className="stat-item__label">Pipeline dispatch cadence</span>
+            <span className="stat-item__number">{loading || !cluster_count ? '—' : cluster_count}</span>
+            <span className="stat-item__label">Knowledge clusters monitored</span>
           </div>
           <div className="stat-item">
             <span className="stat-item__number" style={{fontSize:'1rem', lineHeight:'1.3'}}>{loading ? '—' : latestDate}</span>
@@ -138,6 +140,9 @@ export default function BriefsClient() {
                       {brief.domains.slice(0, 2).map((d) => (
                         <span key={d} className="tag">{d}</span>
                       ))}
+                      {brief.domains.length >= 3 && (
+                        <span className="tag tag--convergence">Multi-domain</span>
+                      )}
                     </div>
                   </div>
                   <div className="brief-feed-card__actions">
