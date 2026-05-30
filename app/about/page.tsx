@@ -14,9 +14,9 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="hero hero--medium page-offset" aria-labelledby="about-headline">
         <div className="hero__inner">
-          <p className="hero__eyebrow">The Intelligence System</p>
+          <p className="hero__eyebrow">About Intelliblock</p>
           <h1 className="hero__headline" id="about-headline">The Intelligence System</h1>
-          <p className="hero__sub">Intelliblock is not a consultancy that happened to add AI. It is an AI-native intelligence infrastructure built to detect bankable infrastructure opportunities in the Nigerian market 12 to 18 months before the market does.</p>
+          <p className="hero__sub">Intelliblock is an AI-native intelligence infrastructure built to detect bankable infrastructure opportunities in the Nigerian market 12 to 18 months before the market moves. Most consultancies added AI as an afterthought. Intelliblock was built around it.</p>
         </div>
       </section>
 
@@ -32,7 +32,7 @@ export default function AboutPage() {
               Three comparable Sub-Saharan African transactions (Taiba N&apos;Diaye Wind, Senegal, 2016–2018; Azito Phase 4, Côte d&apos;Ivoire, 2014–2016; Kenya Solar Feed-in Tariff Reform, 2019–2020) confirm this timing: detection of enabling regulations to advisory mandate appointment ran 12 to 15 months in each case.
             </p>
             <p>
-              Intelliblock operates at Stage 2 to 3 — the policy convergence window. The market enters at Stage 5 to 6. That gap is structural. Big 4 economics require a confirmed mandate before substantive work begins. Intelliblock&apos;s AI-native infrastructure (~£70/month) means the detection and pre-scoring work costs almost nothing. The lead time is a cost model advantage, not a workflow trick.
+              Intelliblock operates at Stage 2 to 3 — the policy convergence window. The market enters at Stage 5 to 6. That gap is structural. Big 4 economics require a confirmed mandate before substantive work begins. Intelliblock&apos;s AI-native infrastructure (~£70/month) means the detection and pre-scoring work costs almost nothing. The lead time is a cost model advantage.
             </p>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default function AboutPage() {
               Intelliblock is run by Ayodeji Idowu, a project finance professional with dual-jurisdiction experience across the UK and Nigerian infrastructure investment markets. Prior work includes DFI-adjacent advisory, infrastructure origination, and financial structuring in Sub-Saharan African markets. Based in Portsmouth, UK (GMT+0).
             </p>
             <p className="body-md leading-loose">
-              Nigeria visits scheduled months 2, 6, and 10 of each operational year — for relationship building with developer and DFI contacts, not for cold market entry. The dual-jurisdiction base is a deliberate structural choice: UK regulatory literacy and DFI relationship access (London is the hub for IFC, Afreximbank, BII, and AfDB European operations) combined with direct Nigeria market intelligence sourced on the ground.
+              Nigeria visits scheduled months 2, 6, and 10 of each operational year — for developer and DFI relationship building. The contacts exist before the visit. The dual-jurisdiction base is a deliberate structural choice: UK regulatory literacy and DFI relationship access (London is the hub for IFC, Afreximbank, BII, and AfDB European operations) combined with direct Nigeria market intelligence sourced on the ground.
             </p>
           </div>
         </div>
@@ -83,8 +83,8 @@ export default function AboutPage() {
           <ul className="not-list max-w-720">
             <li>Not a Big 4 substitute. We operate before their mandate process begins.</li>
             <li>Not a news aggregator. Every signal is scored before it reaches a client.</li>
-            <li>Not a database subscription. The deliverable is intelligence, not data.</li>
-            <li>Not a traditional boutique. The cost model is designed for early-stage detection, not late-stage mandate fees.</li>
+            <li>Not a database subscription. Every signal is assessed and scored before it reaches you.</li>
+            <li>Not a traditional boutique. The cost model is built for early-stage detection — before mandate fees apply.</li>
           </ul>
         </div>
       </section>

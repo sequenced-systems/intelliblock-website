@@ -10,7 +10,7 @@ export default function ServicesSection() {
             Infrastructure intelligence, two delivery formats.
           </h2>
           <p className="ib-services__sub">
-            Both services are designed for decision-makers, not research teams.
+            Both services go directly to decision-makers.
           </p>
         </div>
 

@@ -28,7 +28,7 @@ export default function ServicesPage() {
           <p className="body-md max-w-720 mb-4">
             A Rapid Assessment Plus tells a DFI team, developer, or PE fund whether a Nigerian infrastructure project is bankable, conditionally bankable, or not yet bankable — and precisely which criteria must change for it to be.
           </p>
-          <p className="service-not-text">It is not a feasibility study. It is not a legal opinion. It is a decision instrument — structured specifically for the pre-investment-committee bankability screen that no Big 4 firm can deliver in under six weeks.</p>
+          <p className="service-not-text">It is a decision instrument — structured for the pre-investment-committee bankability screen that no Big 4 firm can deliver in under six weeks. Not a feasibility study. Not a legal opinion.</p>
 
           <div className="grid-2 service-grid">
             <div>
@@ -80,7 +80,7 @@ export default function ServicesPage() {
           <p className="body-md max-w-720 mb-4">
             Nigeria&apos;s infrastructure policy landscape generates convergence events that create or destroy bankability 12 to 18 months before the market moves. Policy Convergence Intelligence tracks those events — producing 2 to 3 scored Signal Briefs per month for subscribers who need to know before the tender is published.
           </p>
-          <p className="service-not-text">It is not a news digest. It is not a database subscription. It is scored intelligence — every signal assessed against the 100-Point Bankability Framework before it reaches the subscriber.</p>
+          <p className="service-not-text">It is scored intelligence — every signal assessed against the 100-Point Bankability Framework before it reaches the subscriber. Not a news digest. Not a raw data feed.</p>
 
           <div className="grid-2 service-grid">
             <div>
@@ -121,7 +121,7 @@ export default function ServicesPage() {
         <div className="container">
           <div className="how-we-work__header" data-animate="fade-up">
             <h2 className="section-headline" id="how-we-work-headline">How an engagement begins</h2>
-            <p className="body-md max-w-720">Most clients enter through intelligence — a signal brief or article that confirms Intelliblock tracks their sector. Engagements follow a defined progression.</p>
+            <p className="body-md max-w-720">Most clients enter through a signal brief that lands before they knew they needed it. Engagements follow a defined progression.</p>
           </div>
           <div className="how-we-work__steps" data-animate="stagger">
 
@@ -157,7 +157,7 @@ export default function ServicesPage() {
             </div>
 
           </div>
-          <p className="how-we-work__note" data-animate="fade-up">Not sure where to start? A 30-minute discovery call covers your mandate and the right entry point.</p>
+          <p className="how-we-work__note" data-animate="fade-up">A 30-minute call is enough to determine the right entry point.</p>
         </div>
       </section>
 
@@ -165,7 +165,7 @@ export default function ServicesPage() {
       <div className="cta-strip">
         <div className="cta-strip__inner">
           <h2 className="cta-strip__headline">Not sure which service fits your mandate?</h2>
-          <p className="cta-strip__sub">A 30-minute call covers your brief, the right service entry point, and what the first deliverable would contain.</p>
+          <p className="cta-strip__sub">A 30-minute call establishes your mandate, the right service entry point, and what the first deliverable contains.</p>
           <div className="cta-strip__actions">
             <a href="https://intelliblock.setmore.com/ayodeji" className="btn btn--primary" rel="noopener noreferrer" target="_blank">Book a 30-minute discovery call</a>
             <Link href="/contact" className="btn btn--ghost">Send a message</Link>

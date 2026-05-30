@@ -281,7 +281,7 @@ export default function FrameworkPage() {
               </table>
             </div>
             <div className="worked-example__verdict">
-              <strong>Verdict:</strong> Bankable. Recommend RA+ for full due diligence. Opportunity window: 12 to 18 months before advisory mandate market enters.
+              <strong>Verdict:</strong> Bankable. Commission an RA+ before the advisory market mobilises. Opportunity window: 12 to 18 months.
             </div>
           </div>
 
@@ -298,7 +298,7 @@ export default function FrameworkPage() {
           <p className="cta-strip__sub">A Rapid Assessment Plus applies the full V3.2 Framework to your project with category-level evidence in 5 to 7 working days.</p>
           <div className="cta-strip__actions">
             <Link href="/services" className="btn btn--primary">View services &rarr;</Link>
-            <Link href="/contact" className="btn btn--ghost">Get in contact</Link>
+            <Link href="/contact" className="btn btn--ghost">Contact us</Link>
           </div>
         </div>
       </div>

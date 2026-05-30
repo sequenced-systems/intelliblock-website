@@ -61,8 +61,8 @@ export default function HeroSection() {
             </h1>
             <p className="ib-hero__sub">
               Intelliblock converts government policy signals into bankable infrastructure
-              transactions before the market mobilises — using the only AI-native Policy
-              Convergence detection system operating in the Nigerian infrastructure market.
+              transactions before the market mobilises — through the only AI-native Policy
+              Convergence detection system in the Nigerian market.
             </p>
             <div className="ib-hero__cta-row">
               <Link href="/contact" className="ib-btn-primary">Request Intelligence Brief →</Link>

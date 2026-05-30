@@ -87,7 +87,7 @@ export default function Home() {
             <div className="ib-diff-card">
               <div className="ib-diff-card__num" aria-hidden="true">01</div>
               <h3 className="ib-diff-card__title">100-Point Bankability Framework V3.2</h3>
-              <p className="ib-diff-card__body">Five proprietary dimensions of deal viability. Not opinion. Structured scoring with traceable evidence for every point awarded.</p>
+              <p className="ib-diff-card__body">Five proprietary dimensions of deal viability. Structured scoring with traceable evidence for every point awarded — no editorial discretion.</p>
             </div>
 
             <div className="ib-diff-card">
@@ -99,7 +99,7 @@ export default function Home() {
             <div className="ib-diff-card">
               <div className="ib-diff-card__num" aria-hidden="true">03</div>
               <h3 className="ib-diff-card__title">12–18 Month Lead Time</h3>
-              <p className="ib-diff-card__body">Intelligence issued before market consensus. Not research — origination intelligence timed to the pre-mandate window.</p>
+              <p className="ib-diff-card__body">Intelligence issued before market consensus. Origination intelligence timed to the pre-mandate window — not research delivered after it forms.</p>
             </div>
 
             <div className="ib-diff-card">
@@ -232,7 +232,7 @@ export default function Home() {
           <div className="newsletter-strip__inner">
             <div className="newsletter-strip__copy">
               <h2 className="newsletter-strip__headline" id="newsletter-headline">Infrastructure intelligence. Issued before the window closes.</h2>
-              <p className="newsletter-strip__sub">Signal Briefs and policy landscape summaries — delivered to infrastructure teams who cannot afford to be late.</p>
+              <p className="newsletter-strip__sub">Signal Briefs and policy landscape summaries — for teams whose decisions depend on knowing first.</p>
             </div>
             <form
               className="newsletter-strip__form"
