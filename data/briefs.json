@@ -1,9 +1,83 @@
 {
-  "exported_at": "2026-06-09T10:00:00Z",
-  "count": 3,
+  "exported_at": "2026-06-10T08:38:30Z",
+  "count": 7,
   "corpus_total": 1549,
   "cluster_count": 39,
   "briefs": [
+    {
+      "signal_id": "SIGNAL-8175",
+      "title": "Nigeria and IFC Sign Agreement to Boost Infrastructure Development Through Public-Private Partnerships",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "PPP",
+        "Infrastructure",
+        "Finance",
+        "DFI"
+      ],
+      "bankability_score": 72,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-09",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8178",
+      "title": "Nigeria Gazettes ECOWAS Tariff Schedule, Signals Readiness for AfCFTA Trade",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "Trade",
+        "AfCFTA",
+        "Customs",
+        "Logistics",
+        "Infrastructure"
+      ],
+      "bankability_score": 63,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-09",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8179",
+      "title": "'Nigeria First' Industrial Policy (NIP 2025) Launched to Revive Factories and Boost Local Production",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "Industrial Policy",
+        "Manufacturing",
+        "Local Content",
+        "Economic Transformation"
+      ],
+      "bankability_score": 72,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-09",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8180",
+      "title": "Cities Being Developed in FCT, Rivers, Lagos, Enugu, Nasarawa, Kano, and Maiduguri Through PPPs",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "Urban Development",
+        "PPP",
+        "Housing",
+        "Infrastructure",
+        "DFI"
+      ],
+      "bankability_score": 68,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-09",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
     {
       "signal_id": "SIGNAL-002",
       "title": "Nigeria and IFC Sign Agreement to Boost Infrastructure Development Through Public-Private Partnerships",
