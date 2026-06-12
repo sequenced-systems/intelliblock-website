@@ -1,9 +1,45 @@
 {
-  "exported_at": "2026-06-11T10:00:01Z",
-  "count": 7,
+  "exported_at": "2026-06-12T10:00:01Z",
+  "count": 9,
   "corpus_total": 1554,
   "cluster_count": 39,
   "briefs": [
+    {
+      "signal_id": "SIGNAL-769612",
+      "title": "Nigeria's Economic Reforms Garner Positive Outlook",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "Macroeconomy",
+        "Policy",
+        "Finance",
+        "Investment"
+      ],
+      "bankability_score": 65,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-12",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8176",
+      "title": "2026 Nigeria Fiscal Policy Introduces New Tariffs, Duties, and Green Tax Surcharge",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "Fiscal Policy",
+        "Taxation",
+        "Green Economy",
+        "Industry"
+      ],
+      "bankability_score": 65,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-12",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
     {
       "signal_id": "SIGNAL-8175",
       "title": "Nigeria and IFC Sign Agreement to Boost Infrastructure Development Through Public-Private Partnerships",
