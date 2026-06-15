@@ -1,9 +1,27 @@
 {
-  "exported_at": "2026-06-14T10:00:00Z",
-  "count": 9,
+  "exported_at": "2026-06-15T10:00:00Z",
+  "count": 10,
   "corpus_total": 1554,
   "cluster_count": 39,
   "briefs": [
+    {
+      "signal_id": "SIGNAL-769613",
+      "title": "De-Sadel Consortium Promotes High-Speed Rail Vision",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "Transport",
+        "Infrastructure",
+        "PPP",
+        "Economic Development"
+      ],
+      "bankability_score": 61,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-15",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
     {
       "signal_id": "SIGNAL-769612",
       "title": "Nigeria's Economic Reforms Garner Positive Outlook",
