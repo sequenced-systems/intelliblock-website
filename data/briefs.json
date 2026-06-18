@@ -1,9 +1,60 @@
 {
-  "exported_at": "2026-06-17T10:00:00Z",
-  "count": 10,
+  "exported_at": "2026-06-18T10:00:00Z",
+  "count": 13,
   "corpus_total": 1572,
   "cluster_count": 39,
   "briefs": [
+    {
+      "signal_id": "SIGNAL-009",
+      "title": "Nigeria's Special Economic Zones (SEZs) Accelerating Industrial Growth with Foreign Investment",
+      "market": "Nigeria",
+      "sector": "Industrial Policy",
+      "domains": [
+        "Industrial Policy",
+        "Infrastructure",
+        "Extractives"
+      ],
+      "bankability_score": 68,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-18",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-010",
+      "title": "Africa PPP and concession pipeline - Scouts by Yutori",
+      "market": "Nigeria",
+      "sector": "Trade/Regional Integration",
+      "domains": [
+        "Trade/Regional Integration",
+        "Infrastructure"
+      ],
+      "bankability_score": 68,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-18",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-013",
+      "title": "Nigeria's New Economic Zones: What Investors Need to Know in 2026",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "Investment",
+        "Industrial Zones",
+        "Policy",
+        "Infrastructure"
+      ],
+      "bankability_score": 72,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-18",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
     {
       "signal_id": "SIGNAL-769613",
       "title": "De-Sadel Consortium Promotes High-Speed Rail Vision",
