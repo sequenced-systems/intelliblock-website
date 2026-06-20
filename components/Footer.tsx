@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="site-footer__brand">
             <Link href="/" className="site-footer__logo" aria-label="Intelliblock Consulting">
               <Image
-                src="/images/logo.jpg"
+                src="/images/logo.webp"
                 alt="Intelliblock Consulting"
                 className="site-footer__logo-img"
                 width={108}

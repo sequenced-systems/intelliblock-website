@@ -44,7 +44,7 @@ export default function Navigation() {
       <div className="site-nav__inner">
         <Link href="/" className="site-nav__logo" aria-label="Intelliblock Consulting — home">
           <Image
-            src="/images/logo.jpg"
+            src="/images/logo.webp"
             alt="Intelliblock Consulting"
             className="site-nav__logo-img"
             width={120}
