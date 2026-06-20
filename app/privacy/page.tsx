@@ -15,7 +15,7 @@ export default function PrivacyPage() {
           <div className="prose-doc">
 
             <h1 id="privacy-headline">Privacy Policy</h1>
-            <p className="prose-doc__meta">Effective date: 1 May 2026 &nbsp;|&nbsp; Last updated: 16 May 2026</p>
+            <p className="prose-doc__meta">Effective date: 1 May 2026 &nbsp;|&nbsp; Last updated: 20 June 2026</p>
 
             <h2>1. Who we are</h2>
             <p>Intelliblock Consulting (&ldquo;Intelliblock&rdquo;, &ldquo;we&rdquo;, &ldquo;our&rdquo;) is a UK-registered advisory firm operated by its Managing Director, Ayodeji Idowu, based in Portsmouth, England. We provide infrastructure bankability intelligence and policy convergence analysis for the African infrastructure market.</p>
@@ -43,7 +43,7 @@ export default function PrivacyPage() {
             <p>We do not sell, rent, or share your personal data with third parties for marketing purposes. Data may be shared with:</p>
             <ul>
               <li><strong>Setmore</strong> — our booking platform, used to schedule discovery calls. Subject to Setmore&apos;s own privacy policy.</li>
-              <li><strong>Email service providers</strong> — for delivery of intelligence outputs to subscribers.</li>
+              <li><strong>Formspree</strong> — our form processing service, used to receive contact enquiries and newsletter signups. Formspree processes form submission data (name, email, message content) on servers in the United States, subject to Standard Contractual Clauses for UK-to-US data transfer. See <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">Formspree&apos;s privacy policy</a>.</li>
               <li><strong>Legal authorities</strong> — where required by UK law or court order.</li>
             </ul>
 
@@ -57,7 +57,7 @@ export default function PrivacyPage() {
             <p>Where we process personal data of Nigerian residents in connection with our services, we do so in compliance with the Nigeria Data Protection Act 2023 (NDPA). We apply equivalent standards to UK GDPR across our data handling practices. Nigerian data subjects may exercise equivalent rights by contacting us directly.</p>
 
             <h2>8. Security</h2>
-            <p>This website is served over HTTPS with TLS encryption. We apply HTTP security headers including Content Security Policy and HSTS. Personal data held in our systems is access-restricted to Intelliblock personnel only.</p>
+            <p>This website is served over HTTPS with TLS encryption. Personal data held in our systems is access-restricted to Intelliblock personnel only.</p>
 
             <h2>9. Cookies</h2>
             <p>This website does not set tracking or analytics cookies. Session cookies may be set by your browser for normal site operation. No third-party advertising or retargeting cookies are used.</p>
