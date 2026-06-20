@@ -117,7 +117,7 @@ export default function Home() {
       <section className="section section--white" aria-labelledby="archive-headline" data-animate="fade-up">
         <div className="container">
           <h2 className="section-headline" id="archive-headline">Bankability Score Archive</h2>
-          <p className="section-subhead">Retrospective scores applied against known outcomes. Framework directional accuracy: 80% across Gate 1 validation cohort.</p>
+          <p className="section-subhead">Retrospective scores applied against known outcomes. Gate 1 validation: 4 of 5 retrospective transactions scored above or below the Tier 2 threshold correctly — before outcomes were known. Cohort expanding to 15 by Q4 2026.</p>
           <div className="table-scroll">
             <table className="data-table data-table--contained" aria-label="Bankability score archive">
               <thead>

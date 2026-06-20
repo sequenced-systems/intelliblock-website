@@ -4282,6 +4282,51 @@ strong {
   .checklist-doc { max-width: 100%; }
 }
 
+/* --- Framework Changelog --- */
+.changelog-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.changelog-entry {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  align-items: baseline;
+}
+
+.changelog-entry:last-child { border-bottom: none; }
+
+.changelog-entry__version {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.changelog-entry__note {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .changelog-entry {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
+
 /* prefers-reduced-motion: neutralise all scroll animations */
 @media (prefers-reduced-motion: reduce) {
   [data-animate="fade-up"],

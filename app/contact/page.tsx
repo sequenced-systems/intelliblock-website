@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import ContactForm from '@/components/ContactForm'
+import { CONTACT_EMAIL, BOOKING_URL, WHATSAPP_URL, LINKEDIN_URL } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'Contact',
@@ -31,25 +32,31 @@ export default function ContactPage() {
             <div className="contact-block">
               <p className="contact-block__label">For assessment enquiries</p>
               <h3 className="contact-block__heading">Rapid Assessment Plus scope discussions</h3>
-              <a href="mailto:ayodeji@intelliblockconsulting.com" className="contact-block__value">ayodeji@intelliblockconsulting.com</a>
+              <a href={`mailto:${CONTACT_EMAIL}`} className="contact-block__value">{CONTACT_EMAIL}</a>
             </div>
 
             <div className="contact-block">
               <p className="contact-block__label">For subscription enquiries</p>
               <h3 className="contact-block__heading">Policy Convergence Intelligence proposals</h3>
-              <a href="mailto:ayodeji@intelliblockconsulting.com" className="contact-block__value">ayodeji@intelliblockconsulting.com</a>
+              <a href={`mailto:${CONTACT_EMAIL}`} className="contact-block__value">{CONTACT_EMAIL}</a>
             </div>
 
             <div className="contact-block">
               <p className="contact-block__label">Discovery call</p>
               <h3 className="contact-block__heading">Book a 30-minute discovery call</h3>
-              <a href="https://intelliblock.setmore.com/ayodeji" className="contact-block__value" rel="noopener noreferrer" target="_blank">intelliblock.setmore.com/ayodeji</a>
+              <a href={BOOKING_URL} className="contact-block__value" rel="noopener noreferrer" target="_blank">intelliblock.setmore.com/ayodeji</a>
             </div>
 
             <div className="contact-block">
               <p className="contact-block__label">WhatsApp</p>
               <h3 className="contact-block__heading">Quick questions via WhatsApp</h3>
-              <a href="https://wa.me/447597646553" className="contact-block__value" rel="noopener noreferrer" target="_blank">Message on WhatsApp</a>
+              <a href={WHATSAPP_URL} className="contact-block__value" rel="noopener noreferrer" target="_blank">Message on WhatsApp</a>
+            </div>
+
+            <div className="contact-block">
+              <p className="contact-block__label">LinkedIn</p>
+              <h3 className="contact-block__heading">Connect on LinkedIn</h3>
+              <a href={LINKEDIN_URL} className="contact-block__value" rel="noopener noreferrer" target="_blank">Intelliblock Consulting</a>
             </div>
 
             <div className="contact-block">

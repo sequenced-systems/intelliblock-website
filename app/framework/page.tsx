@@ -190,6 +190,36 @@ export default function FrameworkPage() {
         </div>
       </section>
 
+      {/* Framework Version History */}
+      <section className="section section--white" aria-labelledby="version-headline">
+        <div className="container">
+          <h2 className="section-headline" id="version-headline">Framework Version History</h2>
+          <p className="section-subhead">The framework has been refined across six versions since V3.1. Every version change is documented here. No retrospective score has changed tier as a result of any version migration.</p>
+          <div className="changelog-block">
+            <div className="changelog-entry">
+              <span className="changelog-entry__version">V3.6 — Current</span>
+              <p className="changelog-entry__note">E&amp;S Conditional Gate activated: IFC PS5 (Involuntary Resettlement), PS7, and PS8 failure without a Resettlement Action Plan in preparation caps the effective tier at Tier 2. SD4 Social Licence formalised as an observation dimension (0 points) in the Informal Market Layer.</p>
+            </div>
+            <div className="changelog-entry">
+              <span className="changelog-entry__version">V3.5</span>
+              <p className="changelog-entry__note">Cat5 ESG gate sharpened: PS FAIL caps Cat5 sub-score at 1/3 of the category maximum. Multi-signal cluster trigger added for parallel domain dispatch.</p>
+            </div>
+            <div className="changelog-entry">
+              <span className="changelog-entry__version">V3.4</span>
+              <p className="changelog-entry__note">Category 4 restructured: base 15 pts with a conditional 5-pt uplift for qualifying informal market projects (Informal Market Layer). IRR benchmark bands formalised per sector. Development impact sub-criterion introduced.</p>
+            </div>
+            <div className="changelog-entry">
+              <span className="changelog-entry__version">V3.3 — Gate 1 calibration baseline</span>
+              <p className="changelog-entry__note">Calibration database established. Retrospective cohort validated at N=10. Brier score confirmed within calibrated range. Gate 1 cohort defined at this version — all subsequent scoring uses V3.3+ as baseline.</p>
+            </div>
+            <div className="changelog-entry">
+              <span className="changelog-entry__version">V3.1 → V3.2</span>
+              <p className="changelog-entry__note">Initial scoring architecture across five dimensions. V3.2 introduced the policy convergence amplifier (Amp1) as a distinct category. All retrospective archive scores have been recalculated at V3.6 equivalent criteria. No score changed tier.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Sector IRR Bands */}
       <section className="section section--white" aria-labelledby="irr-headline">
         <div className="container">

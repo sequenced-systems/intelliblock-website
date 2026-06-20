@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Sample Signal Brief — AFC/Federal Government Alumina Refinery | Intelliblock',
+  title: 'Sample Signal Brief: Alumina Refinery | Intelliblock',
   description: 'Sample bankability assessment: AFC/SMDF $1.3B Alumina Refinery MoU, Nigeria. Bankability score 80/100. Produced by the 100-Point Bankability Framework (scored at V3.2; current framework: V3.6).',
   alternates: { canonical: 'https://www.intelliblockconsulting.com/intelligence/sample/' },
 }

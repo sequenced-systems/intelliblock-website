@@ -60,7 +60,7 @@ export default function IntelligencePage() {
       <section className="section section--white" aria-labelledby="score-archive-headline">
         <div className="container">
           <h2 className="section-headline" id="score-archive-headline">Bankability Score Archive — Gate 1</h2>
-          <p className="section-subhead">All scores are retrospective — applied as at the signal date, before outcomes were known. Framework version at scoring: V3.2. Current framework: V3.6.</p>
+          <p className="section-subhead">All scores are retrospective — applied as at the signal date, before outcomes were known. Gate 1 is Intelliblock&apos;s retrospective calibration cohort: bankability scores applied to completed transactions before outcomes were known. Framework version at scoring: V3.2. Current framework: V3.6.</p>
           <div className="table-scroll">
             <table className="data-table data-table--contained" aria-label="Bankability score archive">
               <thead>
@@ -118,7 +118,7 @@ export default function IntelligencePage() {
             </table>
           </div>
           <div className="archive-note">
-            Scores are retrospective — applied as at signal date, before outcomes were known. Gate 1 directional accuracy: 80–100%. The Lagos–Ibadan SGR result (sovereign bilateral completion) is classified as nuanced: the project completed via a route that bypasses standard DFI bankability criteria. Framework version at scoring: V3.2. Current framework: V3.6.
+            Scores are retrospective — applied as at signal date, before outcomes were known. 4 of 5 transactions scored above or below the Tier 2 threshold correctly (n=5, Gate 1 cohort). The Lagos–Ibadan SGR result (sovereign bilateral completion) is classified as nuanced: the project completed via a route that bypasses standard DFI bankability criteria. Cohort expanding to 15 by Q4 2026. Framework version at scoring: V3.2. Current framework: V3.6.
           </div>
         </div>
       </section>
@@ -320,7 +320,7 @@ export default function IntelligencePage() {
             <p className="email-gate__body">Enter your work email and we will send access details within one working day.</p>
             <form
               className="email-gate__form"
-              action="https://formspree.io/f/xwvzrqdz"
+              action="https://formspree.io/f/xjgqbgpn"
               method="POST"
             >
               <input

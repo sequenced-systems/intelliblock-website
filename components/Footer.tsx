@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { CONTACT_EMAIL, BOOKING_URL, WHATSAPP_URL, LINKEDIN_URL } from '@/lib/constants'
 
 export default function Footer() {
   return (
@@ -40,20 +41,20 @@ export default function Footer() {
           <div>
             <p className="site-footer__col-title">Contact</p>
             <p className="site-footer__contact-item">
-              <a href="mailto:ayodeji@intelliblockconsulting.com">ayodeji@intelliblockconsulting.com</a>
+              <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
             </p>
             <p className="site-footer__contact-item">
-              <a href="https://intelliblock.setmore.com/ayodeji" rel="noopener noreferrer" target="_blank">Book a 30-minute call</a>
+              <a href={BOOKING_URL} rel="noopener noreferrer" target="_blank">Book a 30-minute call</a>
             </p>
             <p className="site-footer__contact-item">
-              <a href="https://wa.me/447597646553" rel="noopener noreferrer" target="_blank">WhatsApp</a>
+              <a href={WHATSAPP_URL} rel="noopener noreferrer" target="_blank">WhatsApp</a>
             </p>
           </div>
         </div>
         <div className="site-footer__bottom">
           <p className="site-footer__copyright">&copy; 2026 Intelliblock Consulting. All rights reserved. Registered in England &amp; Wales.</p>
           <div className="site-footer__social">
-            <a href="https://www.linkedin.com/company/109212959/" rel="noopener noreferrer" target="_blank" aria-label="Intelliblock on LinkedIn">in</a>
+            <a href={LINKEDIN_URL} rel="noopener noreferrer" target="_blank" aria-label="Intelliblock on LinkedIn">in</a>
           </div>
         </div>
       </div>

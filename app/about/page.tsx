@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { LINKEDIN_URL } from '@/lib/constants'
 
 export const metadata: Metadata = {
   title: 'The Intelligence System',
@@ -81,7 +82,7 @@ export default function AboutPage() {
               Nigeria visits scheduled months 2, 6, and 10 of each operational year — for developer and DFI relationship building. The contacts exist before the visit. The dual-jurisdiction base is a deliberate structural choice: UK regulatory literacy and DFI relationship access (London is the hub for IFC, Afreximbank, BII, and AfDB European operations) combined with direct Nigeria market intelligence sourced on the ground.
             </p>
             <a
-              href="https://www.linkedin.com/company/109212959/"
+              href={LINKEDIN_URL}
               rel="noopener noreferrer"
               target="_blank"
               className="about-linkedin-link"
