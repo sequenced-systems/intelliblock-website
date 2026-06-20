@@ -33,6 +33,55 @@ export default function FrameworkPage() {
         </div>
       </section>
 
+      {/* Methodology Pipeline */}
+      <section className="section section--grey" aria-labelledby="pipeline-headline">
+        <div className="container">
+          <h2 className="section-headline" id="pipeline-headline">How a Signal Becomes a Brief</h2>
+          <p className="section-subhead">Five stages from policy event to bankability verdict. Each stage has a hard rule — no editorial discretion at any point in the pipeline.</p>
+          <div className="pipeline">
+
+            <div className="pipeline-stage">
+              <div className="pipeline-stage__num" aria-hidden="true">01</div>
+              <h3 className="pipeline-stage__title">Signal Detected</h3>
+              <p className="pipeline-stage__body">Daily monitoring across 5 domains: legislative, regulatory, DFI deployment, fiscal policy, and political economy.</p>
+            </div>
+
+            <div className="pipeline-arrow" aria-hidden="true">&rarr;</div>
+
+            <div className="pipeline-stage">
+              <div className="pipeline-stage__num" aria-hidden="true">02</div>
+              <h3 className="pipeline-stage__title">Convergence Check</h3>
+              <p className="pipeline-stage__body">How many domains carry active signals (K)? K&thinsp;≥&thinsp;2 triggers full scoring. K&thinsp;=&thinsp;1 is logged and monitored only.</p>
+            </div>
+
+            <div className="pipeline-arrow" aria-hidden="true">&rarr;</div>
+
+            <div className="pipeline-stage">
+              <div className="pipeline-stage__num" aria-hidden="true">03</div>
+              <h3 className="pipeline-stage__title">100-Point Scoring</h3>
+              <p className="pipeline-stage__body">Five core categories scored (Cat1–Cat5, 75 pts). Three signal amplifiers applied (Amp1–Amp3, 25 pts). Sub-criteria weights are proprietary.</p>
+            </div>
+
+            <div className="pipeline-arrow" aria-hidden="true">&rarr;</div>
+
+            <div className="pipeline-stage">
+              <div className="pipeline-stage__num" aria-hidden="true">04</div>
+              <h3 className="pipeline-stage__title">Binary Gate Check</h3>
+              <p className="pipeline-stage__body">ESG Gate, Commercial Gate, and E&amp;S Conditional Gate evaluated. Any triggered gate reduces the effective tier below the raw score.</p>
+            </div>
+
+            <div className="pipeline-arrow" aria-hidden="true">&rarr;</div>
+
+            <div className="pipeline-stage">
+              <div className="pipeline-stage__num" aria-hidden="true">05</div>
+              <h3 className="pipeline-stage__title">Brief Delivered</h3>
+              <p className="pipeline-stage__body">Bankability verdict and tier classification issued. Recommendation and next action are time-bound to the opportunity window.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* Framework Architecture Table */}
       <section className="section section--grey" aria-labelledby="architecture-headline">
         <div className="container">
