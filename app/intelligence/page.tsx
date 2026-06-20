@@ -129,7 +129,7 @@ export default function IntelligencePage() {
           <p className="hero__eyebrow" style={{marginBottom:'0.75rem'}}>Active pipeline output</p>
           <h2 className="section-headline" id="live-output-headline" style={{marginBottom:'1rem'}}>Live Signal Brief Archive</h2>
           <p className="text-secondary max-w-520 mb-7 leading-relaxed mx-auto">
-            Every brief scored ≥60/100 by the HEARTBEAT pipeline — updated daily. Titles and scores are public. Full text is gated.
+            Every brief scored ≥60/100 by Intelliblock&apos;s automated daily scoring system. Titles and scores are public. Full text is gated.
           </p>
           <p className="text-secondary max-w-520 mb-7 leading-relaxed mx-auto" style={{fontSize:'0.875rem'}}>
             Briefs are drawn from a governed knowledge corpus of over 1,500 curated intelligence items across 39 monitored topic clusters. Each cluster carries a confidence index updated continuously as new evidence is processed — scores are not snapshots, they are tracked positions.

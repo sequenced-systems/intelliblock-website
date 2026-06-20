@@ -15,7 +15,7 @@ export default function ProblemSection() {
             <span className="ibp-dot" aria-hidden="true" />
             <span>Convergent Window Analysis</span>
             <span className="ibp-dot" aria-hidden="true" />
-            <span>Framework V3.2</span>
+            <span>Framework V3.6</span>
           </div>
         </div>
 
@@ -30,8 +30,8 @@ export default function ProblemSection() {
             </div>
 
             <h2 className="ibp-headline" id="ibp-headline">
-              Nigeria generates more infrastructure policy signals per quarter than any economy in Sub-Saharan Africa.{' '}
-              <span className="ibp-headline-accent">Most miss the window.</span>
+              Nigeria&apos;s infrastructure policy cycle creates a 12 to 18 month gap between government signal and market mobilisation.{' '}
+              <span className="ibp-headline-accent">Most capital misses it.</span>
             </h2>
 
             <p className="ibp-body">
@@ -47,21 +47,21 @@ export default function ProblemSection() {
             <div className="ibp-meta-block" aria-label="Key statistics">
               <div className="ibp-meta-item">
                 <div className="ibp-meta-num">
-                  240<span className="ibp-meta-unit">+</span>
-                </div>
-                <div className="ibp-meta-lbl">Policy signals / quarter</div>
-              </div>
-              <div className="ibp-meta-item">
-                <div className="ibp-meta-num">
-                  73<span className="ibp-meta-unit">%</span>
-                </div>
-                <div className="ibp-meta-lbl">Of capital arrives late</div>
-              </div>
-              <div className="ibp-meta-item">
-                <div className="ibp-meta-num">
                   12–18<span className="ibp-meta-unit">mo</span>
                 </div>
-                <div className="ibp-meta-lbl">Detection-to-tender gap</div>
+                <div className="ibp-meta-lbl">Detection-to-mandate gap</div>
+              </div>
+              <div className="ibp-meta-item">
+                <div className="ibp-meta-num">
+                  80<span className="ibp-meta-unit">%</span>
+                </div>
+                <div className="ibp-meta-lbl">Gate 1 directional accuracy</div>
+              </div>
+              <div className="ibp-meta-item">
+                <div className="ibp-meta-num">
+                  5
+                </div>
+                <div className="ibp-meta-lbl">Policy domains monitored</div>
               </div>
             </div>
           </div>

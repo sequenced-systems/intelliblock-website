@@ -10,7 +10,7 @@ export default function ServicesSection() {
             Infrastructure intelligence, two delivery formats.
           </h2>
           <p className="ib-services__sub">
-            Both services go directly to decision-makers.
+            One instrument for project-level bankability. One standing subscription for deal origination.
           </p>
         </div>
 
@@ -23,7 +23,7 @@ export default function ServicesSection() {
               <span className="ib-svc-card__tag">TIER 1 DELIVERABLE</span>
               <h3 className="ib-svc-card__title" id="svc-ra-title">Rapid Assessment Plus</h3>
               <p className="ib-svc-card__desc">
-                Full bankability analysis of a single infrastructure opportunity. Five-dimension V3.2
+                Full bankability analysis of a single infrastructure opportunity. Five-dimension V3.6
                 scoring with evidence mapping, DFI alignment assessment, and origination recommendation.
               </p>
               <div className="ib-svc-card__divider" aria-hidden="true" />
@@ -32,7 +32,7 @@ export default function ServicesSection() {
                 <span className="ib-svc-card__price-note">Pilot: £12,000–£15,000</span>
               </div>
               <p className="ib-svc-card__delivery">
-                <span aria-hidden="true">◷</span> 15–20 business days
+                <span aria-hidden="true">◷</span> 5–7 working days
               </p>
               <Link href="/contact" className="ib-svc-card__cta">
                 Request Assessment →

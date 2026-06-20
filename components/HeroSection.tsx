@@ -72,9 +72,10 @@ export default function HeroSection() {
               before market consensus.
             </h1>
             <p className="ib-hero__sub">
-              Intelliblock converts government policy signals into bankable infrastructure
-              transactions before the market mobilises — through the only AI-native Policy
-              Convergence detection system in the Nigerian market.
+              Intelliblock monitors Nigeria&apos;s legislative, regulatory, DFI, and fiscal domains
+              every day. When three or more independent policy signals converge on a single
+              infrastructure opportunity, a full bankability assessment activates — before the
+              market has moved.
             </p>
             <div className="ib-hero__cta-row">
               <Link href="/contact" className="ib-btn-primary">Request Intelligence Brief →</Link>
@@ -82,18 +83,18 @@ export default function HeroSection() {
             </div>
             <div className="ib-hero__stats">
               <div className="ib-stat">
-                <span className="ib-stat__num">147</span>
-                <span className="ib-stat__label">Assets scored</span>
+                <span className="ib-stat__num">10</span>
+                <span className="ib-stat__label">Signals in score archive</span>
               </div>
               <div className="ib-stat__divider" aria-hidden="true" />
               <div className="ib-stat">
-                <span className="ib-stat__num">$42B</span>
-                <span className="ib-stat__label">Total capex tracked</span>
+                <span className="ib-stat__num">80%</span>
+                <span className="ib-stat__label">Gate 1 directional accuracy</span>
               </div>
               <div className="ib-stat__divider" aria-hidden="true" />
               <div className="ib-stat">
                 <span className="ib-stat__num">12 mo</span>
-                <span className="ib-stat__label">Market lead time</span>
+                <span className="ib-stat__label">Market lead time advantage</span>
               </div>
               <div className="ib-stat__divider" aria-hidden="true" />
               <div className="ib-stat">
@@ -179,7 +180,7 @@ export default function HeroSection() {
       <div className="ib-hero__meta-strip">
         <span>Framework V3.6</span>
         <span className="ib-meta-sep" aria-hidden="true">·</span>
-        <span>Coverage: NG 147 Assets</span>
+        <span>Coverage: NG · 10 signals scored</span>
         <span className="ib-meta-sep" aria-hidden="true">·</span>
         <span>Updated daily via automated policy scan</span>
       </div>
