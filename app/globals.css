@@ -1050,6 +1050,25 @@ strong {
   border-bottom: none;
 }
 
+.about-linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(30, 48, 80, 0.3);
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--navy);
+  text-decoration: none;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.about-linkedin-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 /* ===== SECTION SPLIT (problem section) ===== */
 .problem-section {
   max-width: 760px;

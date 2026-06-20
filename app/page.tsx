@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection'
 import ProblemSection from '../components/ProblemSection'
 import ServicesSection from '../components/ServicesSection'
 import BankabilityShowcase from '../components/BankabilityShowcase'
+import ProofStrip from '../components/ProofStrip'
 
 export const metadata: Metadata = {
   title: 'Intelliblock Consulting — Nigeria Infrastructure Bankability Intelligence',
@@ -34,7 +35,7 @@ const jsonLd = {
     name: 'Ayodeji Idowu',
     jobTitle: 'Managing Director',
   },
-  sameAs: [],
+  sameAs: ['https://www.linkedin.com/company/109212959/'],
 }
 
 export default function Home() {
@@ -48,29 +49,7 @@ export default function Home() {
       <HeroSection />
 
       {/* Proof Strip — S2 */}
-      <div className="ib-proof-strip" role="region" aria-label="Key metrics" data-animate="stagger">
-        <div className="ib-proof-strip__inner">
-          <div className="ib-proof-strip__stat">
-            <span className="ib-proof-strip__value">87/100</span>
-            <span className="ib-proof-strip__label">Highest bankability score issued</span>
-          </div>
-          <div className="ib-proof-strip__divider" aria-hidden="true" />
-          <div className="ib-proof-strip__stat">
-            <span className="ib-proof-strip__value">12–18 mo</span>
-            <span className="ib-proof-strip__label">Lead time advantage over market consensus</span>
-          </div>
-          <div className="ib-proof-strip__divider" aria-hidden="true" />
-          <div className="ib-proof-strip__stat">
-            <span className="ib-proof-strip__value">£15K–25K</span>
-            <span className="ib-proof-strip__label">Rapid Assessment investment</span>
-          </div>
-          <div className="ib-proof-strip__divider" aria-hidden="true" />
-          <div className="ib-proof-strip__stat">
-            <span className="ib-proof-strip__value">NG → GH → KE</span>
-            <span className="ib-proof-strip__label">Intelligence geography</span>
-          </div>
-        </div>
-      </div>
+      <ProofStrip />
 
       {/* The Problem — S3 */}
       <ProblemSection />
@@ -232,7 +211,7 @@ export default function Home() {
           <div className="newsletter-strip__inner">
             <div className="newsletter-strip__copy">
               <h2 className="newsletter-strip__headline" id="newsletter-headline">Infrastructure intelligence. Issued before the window closes.</h2>
-              <p className="newsletter-strip__sub">Signal Briefs and policy landscape summaries — for teams whose decisions depend on knowing first.</p>
+              <p className="newsletter-strip__sub">Monthly convergence alerts. Unsubscribe anytime.</p>
             </div>
             <form
               className="newsletter-strip__form"

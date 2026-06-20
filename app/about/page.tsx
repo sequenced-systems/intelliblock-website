@@ -53,7 +53,7 @@ export default function AboutPage() {
               <p className="metric-card__label">Market lead time advantage. The window between policy signal and advisory mandate appointment.</p>
             </div>
             <div className="metric-card">
-              <span className="metric-card__value">V3.2</span>
+              <span className="metric-card__value">V3.6</span>
               <p className="metric-card__label">Current version of the Bankability Framework. Named, versioned, gate-cleared. Not an ad hoc assessment.</p>
             </div>
           </div>
@@ -71,6 +71,14 @@ export default function AboutPage() {
             <p className="body-md leading-loose">
               Nigeria visits scheduled months 2, 6, and 10 of each operational year — for developer and DFI relationship building. The contacts exist before the visit. The dual-jurisdiction base is a deliberate structural choice: UK regulatory literacy and DFI relationship access (London is the hub for IFC, Afreximbank, BII, and AfDB European operations) combined with direct Nigeria market intelligence sourced on the ground.
             </p>
+            <a
+              href="https://www.linkedin.com/company/109212959/"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="about-linkedin-link"
+            >
+              in&nbsp;&nbsp;Follow Intelliblock on LinkedIn
+            </a>
           </div>
         </div>
       </section>
