@@ -12,7 +12,7 @@ export default function NewsletterForm() {
     const form = e.currentTarget
     const data = new FormData(form)
     try {
-      const res = await fetch('https://formspree.io/f/xwvzrqdz', {
+      const res = await fetch('https://formspree.io/f/xjgqbgpn', {
         method: 'POST',
         body: data,
         headers: { Accept: 'application/json' },
