@@ -29,7 +29,7 @@ export default function AboutPage() {
               Nigeria&apos;s infrastructure finance process has a documented 12 to 18 month gap between government policy signal and market mobilisation. Under the ICRC PPP framework, the cycle from Project Identification to Transaction Advisory Appointment runs 12 to 18 months for standard-track projects — the point at which Big 4 firms and boutiques receive their mandate call.
             </p>
             <p>
-              Three comparable Sub-Saharan African transactions (Taiba N&apos;Diaye Wind, Senegal, 2016–2018; Azito Phase 4, Côte d&apos;Ivoire, 2014–2016; Kenya Solar Feed-in Tariff Reform, 2019–2020) confirm this timing: detection of enabling regulations to advisory mandate appointment ran 12 to 15 months in each case.
+              Intelliblock&apos;s retrospective scoring cohort — seven completed Nigerian DFI transactions scored against the V3.6 Bankability Framework — confirms this pattern. High-scoring projects (Azura-Edo IPP, Lekki Deep Sea Port, Dangote Fertiliser Complex, NLNG Train 7) each reached financial close following the policy convergence window. Low-scoring projects (Mambilla Hydropower, 21/100) remain without financial close. Source: Intelliblock Score Archive, 2015–2026.
             </p>
             <p>
               Intelliblock operates at Stage 2 to 3 — the policy convergence window. The market enters at Stage 5 to 6. That gap is structural. Big 4 economics require a confirmed mandate before substantive work begins. Intelliblock&apos;s AI-native infrastructure (~£70/month) means the detection and pre-scoring work costs almost nothing. The lead time is a cost model advantage.
@@ -94,6 +94,13 @@ export default function AboutPage() {
             <li>Not a database subscription. Every signal is assessed and scored before it reaches you.</li>
             <li>Not a traditional boutique. The cost model is built for early-stage detection — before mandate fees apply.</li>
           </ul>
+        </div>
+      </section>
+
+      {/* AI Disclosure */}
+      <section className="section section--white" aria-label="AI disclosure">
+        <div className="container">
+          <p className="text-sm text-secondary max-w-720">All intelligence is AI-assisted analysis, reviewed and approved by the Managing Director before delivery.</p>
         </div>
       </section>
 

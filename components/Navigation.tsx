@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
 const navLinks = [
   { href: '/', label: 'Home' },
@@ -17,6 +17,7 @@ const navLinks = [
 export default function Navigation() {
   const pathname = usePathname()
   const [isOpen, setIsOpen] = useState(false)
+  const toggleRef = useRef<HTMLButtonElement>(null)
 
   useEffect(() => {
     setIsOpen(false)
@@ -73,12 +74,16 @@ export default function Navigation() {
           Book a call
         </a>
         <button
+          ref={toggleRef}
           className="nav-toggle"
           id="nav-toggle"
           aria-expanded={isOpen}
           aria-controls="mobile-nav"
           aria-label={isOpen ? 'Close navigation menu' : 'Open navigation menu'}
-          onClick={() => setIsOpen(prev => !prev)}
+          onClick={() => setIsOpen(prev => {
+            if (prev) setTimeout(() => toggleRef.current?.focus(), 0)
+            return !prev
+          })}
         >
           <span className="nav-toggle__bar" />
           <span className="nav-toggle__bar" />

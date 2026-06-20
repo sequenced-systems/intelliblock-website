@@ -260,6 +260,13 @@ export default function IntelligencePage() {
         </div>
       </section>
 
+      {/* AI Disclosure */}
+      <section className="section section--white" aria-label="AI disclosure">
+        <div className="container">
+          <p className="text-sm text-secondary max-w-720">All intelligence is AI-assisted analysis, reviewed and approved by the Managing Director before delivery.</p>
+        </div>
+      </section>
+
       {/* Email Gate */}
       <section className="section section--white" aria-labelledby="access-headline">
         <div className="container">

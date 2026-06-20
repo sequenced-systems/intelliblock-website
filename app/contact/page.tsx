@@ -51,6 +51,12 @@ export default function ContactPage() {
               <a href="https://wa.me/447597646553" className="contact-block__value" rel="noopener noreferrer" target="_blank">Message on WhatsApp</a>
             </div>
 
+            <div className="contact-block">
+              <p className="contact-block__label">Location</p>
+              <h3 className="contact-block__heading">Base of operations</h3>
+              <span className="contact-block__value">Portsmouth, United Kingdom</span>
+            </div>
+
           </div>
 
           <div className="divider max-w-640"></div>

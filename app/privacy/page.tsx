@@ -49,6 +49,7 @@ export default function PrivacyPage() {
 
             <h2>5. Data retention</h2>
             <p>Enquiry and contact data is retained for 24 months from last contact, unless a client relationship is established (in which case, for the duration of the engagement plus 6 years, as required by UK law). You may request deletion at any time.</p>
+            <p>Newsletter subscription data is retained until you unsubscribe, then deleted within 30 days of your unsubscribe request.</p>
 
             <h2>6. Your rights (UK GDPR)</h2>
             <p>Under UK GDPR you have the right to: access your data, correct inaccurate data, request erasure, restrict processing, data portability, and to object to processing based on legitimate interests. To exercise any right, contact us at <a href="mailto:ayodeji@intelliblockconsulting.com">ayodeji@intelliblockconsulting.com</a>. We will respond within 30 days. You also have the right to complain to the Information Commissioner&apos;s Office (ICO) at ico.org.uk.</p>

@@ -5,7 +5,6 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import AnimationObserver from '@/components/AnimationObserver'
-import CookieConsentBanner from '@/components/CookieConsentBanner'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -48,7 +47,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <WhatsAppButton />
         <AnimationObserver />
-        <CookieConsentBanner />
       </body>
     </html>
   )
