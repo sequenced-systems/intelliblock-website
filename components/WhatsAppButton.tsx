@@ -1,7 +1,9 @@
+import { WHATSAPP_URL } from '@/lib/constants'
+
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/447597646553"
+      href={WHATSAPP_URL}
       className="whatsapp-btn"
       rel="noopener noreferrer"
       target="_blank"

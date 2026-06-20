@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
   return (
-    <main>
+    <main id="main-content">
 
       {/* Hero */}
       <section className="hero hero--short page-offset" aria-labelledby="contact-headline">

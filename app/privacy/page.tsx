@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPage() {
   return (
-    <main>
+    <main id="main-content">
       <section className="section section--white page-offset" aria-labelledby="privacy-headline">
         <div className="container">
           <div className="prose-doc">

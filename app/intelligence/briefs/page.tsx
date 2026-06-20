@@ -7,9 +7,20 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.intelliblockconsulting.com/intelligence/briefs/' },
 }
 
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.intelliblockconsulting.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Intelligence', item: 'https://www.intelliblockconsulting.com/intelligence/' },
+    { '@type': 'ListItem', position: 3, name: 'Live Signal Brief Archive', item: 'https://www.intelliblockconsulting.com/intelligence/briefs/' },
+  ],
+}
+
 export default function BriefsPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
       <noscript>
         <section className="section section--white page-offset">
           <div className="container">

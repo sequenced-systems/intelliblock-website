@@ -7,9 +7,20 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.intelliblockconsulting.com/intelligence/sample/' },
 }
 
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.intelliblockconsulting.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Intelligence', item: 'https://www.intelliblockconsulting.com/intelligence/' },
+    { '@type': 'ListItem', position: 3, name: 'Sample Signal Brief', item: 'https://www.intelliblockconsulting.com/intelligence/sample/' },
+  ],
+}
+
 export default function SampleBriefPage() {
   return (
-    <main>
+    <main id="main-content">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
 
       {/* Hero */}
       <section className="hero hero--medium page-offset" aria-labelledby="sample-hero-headline">

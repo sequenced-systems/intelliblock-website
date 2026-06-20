@@ -23,6 +23,9 @@
   --shadow-card: 0 1px 3px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.06);
   --shadow-card-hover: 0 4px 12px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.08);
   --navy: #1E3050;
+  --bg-dark-alt: var(--bg-dark-alt);
+  --signal-green: var(--signal-green);
+  --signal-red: var(--signal-red);
 }
 
 /* --- Reset & Base --- */
@@ -46,6 +49,32 @@ body {
   background-color: var(--bg-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- Skip to content --- */
+.skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-to-content:focus {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  width: auto;
+  height: auto;
+  padding: 0.75rem 1.25rem;
+  background-color: var(--accent);
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  z-index: 9999;
+  text-decoration: none;
+  border-radius: 4px;
+  overflow: visible;
 }
 
 /* --- Typography --- */
@@ -2386,7 +2415,7 @@ strong {
 
 /* ===== RIGHT COLUMN — SCORE CARD ===== */
 .ib-scorecard {
-  background-color: #152036;
+  background-color: var(--bg-dark-alt);
   border: 1px solid #1E3050;
   padding: 1.75rem;
   position: relative;
@@ -2658,7 +2687,7 @@ strong {
 }
 
 .ib-svc-card {
-  background-color: #152036;
+  background-color: var(--bg-dark-alt);
   border: 1px solid #1E3050;
   border-top: none;
   transition: background-color 0.2s ease;
@@ -3121,7 +3150,7 @@ strong {
 /* Card */
 .ibp-card {
   position: relative;
-  background: #152036;
+  background: var(--bg-dark-alt);
   border: 1px solid #1E3050;
   border-top: 3px solid #C4922A;
   padding: 28px 36px 36px;
@@ -3192,11 +3221,11 @@ strong {
   width: 1px;
   transform: translateX(-0.5px);
   background: linear-gradient(to bottom,
-    #2ECC71 0%,
-    #2ECC71 12%,
+    var(--signal-green) 0%,
+    var(--signal-green) 12%,
     #C4922A 50%,
-    #E74C3C 88%,
-    #E74C3C 100%);
+    var(--signal-red) 88%,
+    var(--signal-red) 100%);
 }
 .ibp-tnode {
   position: relative;
@@ -3224,15 +3253,15 @@ strong {
   font-weight: 700;
 }
 .ibp-tnode--top .ibp-tnode-marker {
-  border-color: #2ECC71;
-  color: #2ECC71;
+  border-color: var(--signal-green);
+  color: var(--signal-green);
   background: rgba(46,204,113,0.1);
 }
 .ibp-tnode--top .ibp-tnode-marker::before { top: -1px; left: -5px; }
 .ibp-tnode--top .ibp-tnode-marker::after  { top: -1px; right: -5px; }
 .ibp-tnode--bottom .ibp-tnode-marker {
-  border-color: #E74C3C;
-  color: #E74C3C;
+  border-color: var(--signal-red);
+  color: var(--signal-red);
   background: rgba(231,76,60,0.1);
 }
 .ibp-tnode--bottom .ibp-tnode-marker::before { bottom: -1px; left: -5px; }
@@ -3271,8 +3300,8 @@ strong {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.ibp-tnode--top .ibp-tnode-t  { color: #2ECC71; }
-.ibp-tnode--bottom .ibp-tnode-t { color: #E74C3C; opacity: 0.85; }
+.ibp-tnode--top .ibp-tnode-t  { color: var(--signal-green); }
+.ibp-tnode--bottom .ibp-tnode-t { color: var(--signal-red); opacity: 0.85; }
 .ibp-tnode-title {
   font-size: 15px;
   font-weight: 600;
@@ -3364,8 +3393,8 @@ strong {
   gap: 8px;
   color: #8FA3C0;
 }
-.ibp-a-green { color: #2ECC71; }
-.ibp-a-red   { color: #E74C3C; }
+.ibp-a-green { color: var(--signal-green); }
+.ibp-a-red   { color: var(--signal-red); }
 
 /* Responsive */
 @media (max-width: 1024px) {
@@ -3424,7 +3453,7 @@ strong {
 }
 
 .ib-diff-card {
-  background-color: #152036;
+  background-color: var(--bg-dark-alt);
   border: 1px solid #1E3050;
   border-top: 3px solid #C4922A;
   padding: 2rem 1.5rem;
@@ -3481,7 +3510,7 @@ strong {
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.12em;
-  color: var(--accent-gold, #C4922A);
+  color: var(--accent);
   margin-bottom: 1rem;
 }
 
@@ -3520,7 +3549,7 @@ strong {
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.12em;
-  color: var(--accent-gold, #C4922A);
+  color: var(--accent);
   margin-bottom: 1rem;
   text-transform: uppercase;
 }
@@ -3568,7 +3597,7 @@ strong {
 .demo-note__headline {
   font-size: 1rem;
   font-weight: 700;
-  color: var(--accent-gold, #C4922A);
+  color: var(--accent);
   margin-bottom: 1rem;
 }
 
