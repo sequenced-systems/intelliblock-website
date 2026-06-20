@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import ContactForm from '@/components/ContactForm'
 
 export const metadata: Metadata = {
   title: 'Contact',
@@ -63,70 +64,7 @@ export default function ContactPage() {
 
           <h2 className="section-headline text-2xl mb-6">Send a message</h2>
 
-          <form
-            className="contact-form"
-            action="https://formspree.io/f/xwvzrqdz"
-            method="POST"
-            aria-label="Contact form"
-          >
-            {/* Honeypot — hidden from humans, catches bots */}
-            <div style={{ display: 'none' }} aria-hidden="true">
-              <label htmlFor="contact-website">Website</label>
-              <input type="text" id="contact-website" name="website" tabIndex={-1} autoComplete="off" />
-            </div>
-
-            <div className="form-group">
-              <label className="form-label" htmlFor="contact-name">Name</label>
-              <input
-                className="form-input"
-                type="text"
-                id="contact-name"
-                name="name"
-                placeholder="Your full name"
-                autoComplete="name"
-                required
-              />
-            </div>
-
-            <div className="form-group">
-              <label className="form-label" htmlFor="contact-email">Email</label>
-              <input
-                className="form-input"
-                type="email"
-                id="contact-email"
-                name="email"
-                placeholder="your@company.com"
-                autoComplete="email"
-                required
-              />
-            </div>
-
-            <div className="form-group">
-              <label className="form-label form-label--optional" htmlFor="contact-company">Company</label>
-              <input
-                className="form-input"
-                type="text"
-                id="contact-company"
-                name="company"
-                placeholder="Organisation or fund"
-                autoComplete="organization"
-              />
-            </div>
-
-            <div className="form-group">
-              <label className="form-label" htmlFor="contact-message">Message</label>
-              <textarea
-                className="form-textarea"
-                id="contact-message"
-                name="message"
-                placeholder="Describe the project, mandate, or enquiry."
-                required
-              ></textarea>
-            </div>
-
-            <button type="submit" className="btn btn--primary">Send message &rarr;</button>
-            <p className="form-note">Response within 1 working day. Your details are not shared with third parties.</p>
-          </form>
+          <ContactForm />
 
         </div>
       </section>

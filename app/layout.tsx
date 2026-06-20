@@ -35,6 +35,14 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: 'Intelliblock Consulting',
     locale: 'en_GB',
+    images: [
+      {
+        url: '/og-image.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Intelliblock Consulting — Nigeria Infrastructure Bankability Intelligence',
+      },
+    ],
   },
 }
 

@@ -5,6 +5,7 @@ import ProblemSection from '../components/ProblemSection'
 import ServicesSection from '../components/ServicesSection'
 import BankabilityShowcase from '../components/BankabilityShowcase'
 import ProofStrip from '../components/ProofStrip'
+import NewsletterForm from '../components/NewsletterForm'
 
 export const metadata: Metadata = {
   title: 'Intelliblock Consulting — Nigeria Infrastructure Bankability Intelligence',
@@ -208,36 +209,7 @@ export default function Home() {
       {/* Newsletter CTA — S10 */}
       <section className="newsletter-strip" aria-labelledby="newsletter-headline" data-animate="fade-up">
         <div className="container">
-          <div className="newsletter-strip__inner">
-            <div className="newsletter-strip__copy">
-              <h2 className="newsletter-strip__headline" id="newsletter-headline">Infrastructure intelligence. Issued before the window closes.</h2>
-              <p className="newsletter-strip__sub">Monthly convergence alerts. Unsubscribe anytime.</p>
-            </div>
-            <form
-              className="newsletter-strip__form"
-              action="https://formspree.io/f/xwvzrqdz"
-              method="POST"
-              aria-label="Subscribe to intelligence updates"
-            >
-              {/* Honeypot — hidden from humans, catches bots */}
-              <div style={{ display: 'none' }} aria-hidden="true">
-                <label htmlFor="newsletter-website">Website</label>
-                <input type="text" id="newsletter-website" name="website" tabIndex={-1} autoComplete="off" />
-              </div>
-              <label htmlFor="newsletter-email" className="visually-hidden">Your email address</label>
-              <input
-                type="email"
-                id="newsletter-email"
-                name="email"
-                className="newsletter-strip__input"
-                placeholder="Your work email"
-                required
-                autoComplete="email"
-              />
-              <button type="submit" className="btn btn--primary newsletter-strip__submit">Subscribe &rarr;</button>
-            </form>
-            <p className="newsletter-strip__disclaimer">No spam. Unsubscribe at any time. <Link href="/privacy">Privacy Policy</Link>.</p>
-          </div>
+          <NewsletterForm />
         </div>
       </section>
     </main>

@@ -81,6 +81,10 @@ export default function HeroSection() {
               <Link href="/contact" className="ib-btn-primary">Request Intelligence Brief →</Link>
               <Link href="/intelligence" className="ib-btn-secondary">View Score Archive ↗</Link>
             </div>
+            <p className="ib-hero__method-stub">
+              Five-dimension V3.6 Bankability Framework. Legislative, regulatory, DFI, fiscal, and political economy signals — scored simultaneously.{' '}
+              <Link href="/framework" className="ib-hero__method-link">View methodology →</Link>
+            </p>
             <div className="ib-hero__stats">
               <div className="ib-stat">
                 <span className="ib-stat__num">10</span>

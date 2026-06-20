@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1628"/>
+      <stop offset="100%" stop-color="#0D1E35"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C4922A"/>
+      <stop offset="100%" stop-color="#A87820"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Gold accent bar top -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent-line)"/>
+
+  <!-- Grid lines (subtle) -->
+  <line x1="80" y1="0" x2="80" y2="630" stroke="#1E3050" stroke-width="1"/>
+  <line x1="1120" y1="0" x2="1120" y2="630" stroke="#1E3050" stroke-width="1"/>
+
+  <!-- Eyebrow -->
+  <text x="80" y="120" font-family="'Inter', -apple-system, sans-serif" font-size="16" font-weight="600" letter-spacing="0.12em" fill="#C4922A" text-transform="uppercase">INTELLIBLOCK CONSULTING</text>
+
+  <!-- Main headline -->
+  <text x="80" y="210" font-family="'Inter', -apple-system, sans-serif" font-size="52" font-weight="700" fill="#FFFFFF" letter-spacing="-0.02em">Nigeria Infrastructure</text>
+  <text x="80" y="278" font-family="'Inter', -apple-system, sans-serif" font-size="52" font-weight="700" fill="#FFFFFF" letter-spacing="-0.02em">Bankability Intelligence</text>
+
+  <!-- Subheadline -->
+  <text x="80" y="340" font-family="'Inter', -apple-system, sans-serif" font-size="22" font-weight="400" fill="rgba(255,255,255,0.65)">Converting policy signals into bankable infrastructure</text>
+  <text x="80" y="370" font-family="'Inter', -apple-system, sans-serif" font-size="22" font-weight="400" fill="rgba(255,255,255,0.65)">transactions 12–18 months before market consensus.</text>
+
+  <!-- Divider -->
+  <rect x="80" y="418" width="120" height="2" fill="#C4922A"/>
+
+  <!-- Framework badge -->
+  <rect x="80" y="450" width="260" height="44" rx="4" fill="#1E3050"/>
+  <text x="100" y="478" font-family="'Inter', -apple-system, sans-serif" font-size="14" font-weight="600" fill="#C4922A">100-Point Bankability Framework V3.6</text>
+
+  <!-- Score badge -->
+  <rect x="360" y="450" width="160" height="44" rx="4" fill="#1E3050"/>
+  <text x="380" y="478" font-family="'Inter', -apple-system, sans-serif" font-size="14" font-weight="600" fill="rgba(255,255,255,0.8)">Gate 1 Accuracy: 80%</text>
+
+  <!-- URL -->
+  <text x="80" y="570" font-family="'Inter', -apple-system, sans-serif" font-size="16" font-weight="400" fill="rgba(255,255,255,0.4)">intelliblockconsulting.com</text>
+
+  <!-- Right column — score card illustration -->
+  <rect x="780" y="80" width="340" height="470" rx="8" fill="#1A2E4A" stroke="#2A3F5C" stroke-width="1"/>
+  <rect x="780" y="80" width="340" height="4" rx="0" fill="#C4922A"/>
+
+  <text x="800" y="130" font-family="'Inter', -apple-system, sans-serif" font-size="11" font-weight="600" letter-spacing="0.08em" fill="rgba(255,255,255,0.5)">BANKABILITY SCORE</text>
+  <text x="800" y="155" font-family="'Inter', -apple-system, sans-serif" font-size="11" font-weight="400" fill="rgba(255,255,255,0.3)">Framework V3.6</text>
+
+  <!-- Score number -->
+  <text x="870" y="250" font-family="'Inter', -apple-system, sans-serif" font-size="72" font-weight="700" fill="#C4922A" text-anchor="middle">77</text>
+  <text x="920" y="250" font-family="'Inter', -apple-system, sans-serif" font-size="28" font-weight="400" fill="rgba(255,255,255,0.4)">/100</text>
+  <text x="870" y="278" font-family="'Inter', -apple-system, sans-serif" font-size="13" font-weight="600" fill="rgba(255,255,255,0.6)" text-anchor="middle">Tier 2 Bankable</text>
+
+  <!-- Dimension bars -->
+  <text x="800" y="320" font-family="'Inter', -apple-system, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)">C1 Policy Alignment</text>
+  <rect x="800" y="328" width="300" height="4" rx="2" fill="#1E3050"/>
+  <rect x="800" y="328" width="270" height="4" rx="2" fill="#C4922A"/>
+
+  <text x="800" y="358" font-family="'Inter', -apple-system, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)">C2 DFI Readiness</text>
+  <rect x="800" y="366" width="300" height="4" rx="2" fill="#1E3050"/>
+  <rect x="800" y="366" width="240" height="4" rx="2" fill="#C4922A"/>
+
+  <text x="800" y="396" font-family="'Inter', -apple-system, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)">C3 Revenue Model</text>
+  <rect x="800" y="404" width="300" height="4" rx="2" fill="#1E3050"/>
+  <rect x="800" y="404" width="225" height="4" rx="2" fill="#C4922A"/>
+
+  <text x="800" y="434" font-family="'Inter', -apple-system, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)">C4 Implementation</text>
+  <rect x="800" y="442" width="300" height="4" rx="2" fill="#1E3050"/>
+  <rect x="800" y="442" width="255" height="4" rx="2" fill="#C4922A"/>
+
+  <text x="800" y="472" font-family="'Inter', -apple-system, sans-serif" font-size="11" fill="rgba(255,255,255,0.5)">C5 Risk Profile</text>
+  <rect x="800" y="480" width="300" height="4" rx="2" fill="#1E3050"/>
+  <rect x="800" y="480" width="210" height="4" rx="2" fill="#C4922A"/>
+
+  <!-- Asset label -->
+  <rect x="800" y="508" width="300" height="1" fill="rgba(255,255,255,0.1)"/>
+  <text x="800" y="530" font-family="'Inter', -apple-system, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.8)">Bakassi Deep Seaport</text>
+  <text x="800" y="548" font-family="'Inter', -apple-system, sans-serif" font-size="11" fill="rgba(255,255,255,0.4)">CRS · Nigeria · Active signal · 2026</text>
+</svg>

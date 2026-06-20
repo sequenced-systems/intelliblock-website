@@ -1289,6 +1289,43 @@ strong {
   margin-top: 0.75rem;
 }
 
+.form-error {
+  font-size: 0.875rem;
+  color: #DC2626;
+  margin-top: 0.75rem;
+}
+
+.contact-form-confirmation {
+  max-width: 640px;
+  padding: 2rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #F9FAFB;
+}
+
+.contact-form-confirmation__headline {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.contact-form-confirmation__body {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.newsletter-strip__error {
+  font-size: 0.8125rem;
+  color: rgba(255,255,255,0.7);
+  margin-top: 0.5rem;
+}
+
+.newsletter-strip__error a {
+  color: var(--accent);
+}
+
 /* ===== FOOTER ===== */
 .site-footer {
   background-color: var(--bg-primary);
@@ -2167,6 +2204,23 @@ strong {
 .ib-btn-secondary:hover {
   border-color: rgba(255,255,255,0.5);
   color: #ffffff;
+}
+
+.ib-hero__method-stub {
+  font-size: 0.8125rem;
+  color: rgba(255,255,255,0.55);
+  margin: 1rem 0 0;
+  line-height: 1.5;
+}
+
+.ib-hero__method-link {
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.ib-hero__method-link:hover {
+  color: var(--accent-hover);
 }
 
 .ib-hero__stats {
