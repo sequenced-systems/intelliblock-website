@@ -11,6 +11,7 @@ const navLinks = [
   { href: '/framework', label: 'The Framework' },
   { href: '/intelligence', label: 'Intelligence' },
   { href: '/about', label: 'About' },
+  { href: '/faq', label: 'FAQ' },
   { href: '/contact', label: 'Contact' },
 ]
 

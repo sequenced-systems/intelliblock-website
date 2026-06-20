@@ -20,6 +20,38 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* Audience Track */}
+      <section className="section section--grey" aria-labelledby="audience-headline">
+        <div className="container">
+          <h2 className="section-headline" id="audience-headline">Find your entry point</h2>
+          <p className="section-subhead mb-7">Both services are built on the same analytical standard. Which one fits depends on where you sit in the transaction process.</p>
+          <div className="audience-track-grid">
+            <div className="audience-track-card">
+              <p className="audience-track-card__tag">Track A — Intelligence Subscribers</p>
+              <h3 className="audience-track-card__title">DFI Investment Officers &amp; PE Funds</h3>
+              <p className="audience-track-card__body">You manage a West Africa or Nigeria mandate and need scored infrastructure signals before the market moves. You want to know which opportunities to investigate 12 to 18 months before a tender is published — not after.</p>
+              <ul className="audience-track-card__services">
+                <li>Policy Convergence Intelligence — 2 to 3 scored Signal Briefs per month</li>
+                <li>Monthly sector summary — one bankable opportunity call per cycle</li>
+                <li>Multi-domain convergence events prioritised</li>
+              </ul>
+              <a href="#pci-headline" className="audience-track-card__cta">See Policy Convergence Intelligence &darr;</a>
+            </div>
+            <div className="audience-track-card">
+              <p className="audience-track-card__tag">Track B — Project Sponsors</p>
+              <h3 className="audience-track-card__title">Infrastructure Developers &amp; Project Finance Teams</h3>
+              <p className="audience-track-card__body">You have a specific project — or are evaluating one — and need a structured bankability verdict before approaching a DFI or investment committee. You need evidence, not opinion.</p>
+              <ul className="audience-track-card__services">
+                <li>Rapid Assessment Plus — 5 to 7 day bankability assessment</li>
+                <li>100-Point score with category-level evidence</li>
+                <li>Binary gate verdict — DFI readiness confirmed or conditions identified</li>
+              </ul>
+              <a href="#ra-headline" className="audience-track-card__cta">See Rapid Assessment Plus &darr;</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Service 2A: Rapid Assessment Plus */}
       <section className="section section--white" aria-labelledby="ra-headline">
         <div className="container">
@@ -65,6 +97,10 @@ export default function ServicesPage() {
               <p className="text-sm text-secondary mb-7">Pilot rate of £12,000–15,000 for the first engagement.</p>
 
               <Link href="/contact" className="btn btn--primary">Scope your Rapid Assessment &rarr;</Link>
+              <p className="text-sm text-secondary" style={{ marginTop: '1rem' }}>
+                Not sure if your project is ready?{' '}
+                <Link href="/resources" style={{ color: 'var(--accent)' }}>Use the free DFI Readiness Checklist &rarr;</Link>
+              </p>
             </div>
           </div>
         </div>
