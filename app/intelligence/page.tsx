@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Intelligence Archive',
-  description: 'Nigeria infrastructure bankability score archive and published intelligence output. Gate 1: 4 of 5 retrospective scores directionally correct. Framework version V3.2.',
+  description: 'Nigeria infrastructure bankability score archive and published intelligence output. Gate 1: 4 of 5 retrospective scores directionally correct. Framework version V3.6.',
   alternates: { canonical: 'https://www.intelliblockconsulting.com/intelligence/' },
 }
 
@@ -36,7 +36,7 @@ export default function IntelligencePage() {
             <span className="stat-item__label">Framework directional accuracy (Gate 1)</span>
           </div>
           <div className="stat-item">
-            <span className="stat-item__number">V3.2</span>
+            <span className="stat-item__number">V3.6</span>
             <span className="stat-item__label">Current framework version</span>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function IntelligencePage() {
       <section className="section section--white" aria-labelledby="score-archive-headline">
         <div className="container">
           <h2 className="section-headline" id="score-archive-headline">Bankability Score Archive — Gate 1</h2>
-          <p className="section-subhead">All scores are retrospective — applied as at the signal date, before outcomes were known. Framework version at scoring: V3.2.</p>
+          <p className="section-subhead">All scores are retrospective — applied as at the signal date, before outcomes were known. Framework version at scoring: V3.2. Current framework: V3.6.</p>
           <div className="table-scroll">
             <table className="data-table data-table--contained" aria-label="Bankability score archive">
               <thead>
@@ -118,7 +118,7 @@ export default function IntelligencePage() {
             </table>
           </div>
           <div className="archive-note">
-            Scores are retrospective — applied as at signal date, before outcomes were known. Gate 1 directional accuracy: 80–100%. The Lagos–Ibadan SGR result (sovereign bilateral completion) is classified as nuanced: the project completed via a route that bypasses standard DFI bankability criteria. Framework version at scoring: V3.2. Current framework: V3.2.
+            Scores are retrospective — applied as at signal date, before outcomes were known. Gate 1 directional accuracy: 80–100%. The Lagos–Ibadan SGR result (sovereign bilateral completion) is classified as nuanced: the project completed via a route that bypasses standard DFI bankability criteria. Framework version at scoring: V3.2. Current framework: V3.6.
           </div>
         </div>
       </section>

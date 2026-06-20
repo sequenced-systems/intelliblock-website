@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     default: 'Intelliblock Consulting — Nigeria Infrastructure Bankability Intelligence',
     template: '%s — Intelliblock Consulting',
   },
-  description: 'Intelliblock converts government policy signals into bankable Nigerian infrastructure transactions 12–18 months before market consensus, using the 100-Point Bankability Framework V3.2.',
+  description: 'Intelliblock converts government policy signals into bankable Nigerian infrastructure transactions 12–18 months before market consensus, using the 100-Point Bankability Framework V3.6.',
   icons: {
     icon: '/favicon.svg',
     apple: '/favicon.svg',

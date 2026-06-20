@@ -2,15 +2,15 @@
 import { useEffect, useRef, useState } from 'react'
 
 const DIMENSIONS = [
-  { code: 'C1', label: 'Policy Alignment',  score: 18, max: 20 },
-  { code: 'C2', label: 'DFI Readiness',     score: 16, max: 20 },
-  { code: 'C3', label: 'Revenue Model',     score: 15, max: 20 },
-  { code: 'C4', label: 'Implementation',    score: 17, max: 20 },
-  { code: 'C5', label: 'Risk Profile',      score: 14, max: 20 },
+  { code: 'C1', label: 'Policy Alignment',    score: 19, max: 20 },
+  { code: 'C2', label: 'Implementation',      score: 18, max: 20 },
+  { code: 'C3', label: 'Commercial Viability', score: 17, max: 20 },
+  { code: 'C4', label: 'Fiscal Architecture', score: 17, max: 20 },
+  { code: 'C5', label: 'Market Convergence',  score: 16, max: 20 },
 ]
 
 const ARC_TOTAL = 301.6
-const SCORE = 80
+const SCORE = 87
 const ARC_FILLED = (SCORE / 100) * ARC_TOTAL
 const DASHOFFSET_FULL = ARC_TOTAL
 const DASHOFFSET_TARGET = ARC_TOTAL - ARC_FILLED
@@ -66,21 +66,21 @@ export default function BankabilityShowcase() {
         <div className="ib-showcase__left">
           <p className="ib-section-label">BANKABILITY SCORE ARCHIVE</p>
           <h2 className="ib-showcase__headline" id="ib-showcase-headline">
-            Bakassi Deep Seaport
+            NLNG Train 7 — Bonny Island
           </h2>
-          <p className="ib-showcase__location">Cross River State, Nigeria — 2026</p>
+          <p className="ib-showcase__location">Rivers State, Nigeria — Signal Date 2019 · FID December 2021</p>
           <p className="ib-showcase__finding">
-            Presidential priority classification activated in Q1 2026. NPA privatisation signal
-            confirmed DFI co-financing appetite. AfDB deployment mandate converges with Lekki
-            Port Phase 2 overflow demand.
+            IOC/NNPC JV brownfield expansion. ERGP 2017 presidential mandate confirmed. FEED
+            complete, EPC procurement active. Long-term USD SPAs with Shell, TotalEnergies,
+            and ENI — highest certainty offtake structure in Nigeria's infrastructure market.
           </p>
           <div className="ib-showcase__chips" role="list" aria-label="Evidence signals">
             <span className="ib-evidence-chip" role="listitem">Presidential Priority</span>
-            <span className="ib-evidence-chip" role="listitem">NPA Privatisation Signal</span>
-            <span className="ib-evidence-chip" role="listitem">AfDB Co-financing Mandate</span>
+            <span className="ib-evidence-chip" role="listitem">IOC Equity Sponsors</span>
+            <span className="ib-evidence-chip" role="listitem">4-Domain Convergence</span>
           </div>
           <p className="ib-showcase__outcome">
-            Tier 1 Bankable — AfreximBank approach recommended
+            Tier 1 Bankable — FID achieved December 2021 · EPC $2.96B
           </p>
         </div>
 
@@ -89,7 +89,7 @@ export default function BankabilityShowcase() {
           <div className="ib-scorecard">
             <div className="ib-scorecard__header">
               <span className="ib-scorecard__tag">Bankability Score</span>
-              <span className="ib-scorecard__framework">Framework V3.2</span>
+              <span className="ib-scorecard__framework">Framework V3.6</span>
             </div>
 
             <div className="ib-gauge" aria-label={`Bankability score: ${SCORE} out of 100`}>
@@ -147,8 +147,8 @@ export default function BankabilityShowcase() {
 
             <div className="ib-scorecard__footer">
               <div className="ib-scorecard__asset">
-                <span className="ib-scorecard__asset-name">Bakassi Deep Seaport</span>
-                <span className="ib-scorecard__asset-meta">Framework V3.2 · AI-assisted · MD-reviewed</span>
+                <span className="ib-scorecard__asset-name">NLNG Train 7 — Bonny Island</span>
+                <span className="ib-scorecard__asset-meta">Framework V3.6 · AI-assisted · MD-reviewed</span>
               </div>
               <span className="ib-scorecard__tier">Tier 1</span>
             </div>

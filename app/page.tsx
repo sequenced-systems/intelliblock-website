@@ -7,7 +7,7 @@ import BankabilityShowcase from '../components/BankabilityShowcase'
 
 export const metadata: Metadata = {
   title: 'Intelliblock Consulting — Nigeria Infrastructure Bankability Intelligence',
-  description: 'Intelliblock converts government policy signals into bankable Nigerian infrastructure transactions 12–18 months before market consensus, using the 100-Point Bankability Framework V3.2.',
+  description: 'Intelliblock converts government policy signals into bankable Nigerian infrastructure transactions 12–18 months before market consensus, using the 100-Point Bankability Framework V3.6.',
   alternates: { canonical: 'https://www.intelliblockconsulting.com/' },
   openGraph: {
     title: 'Intelliblock Consulting — Nigeria Infrastructure Bankability Intelligence',
@@ -86,7 +86,7 @@ export default function Home() {
 
             <div className="ib-diff-card">
               <div className="ib-diff-card__num" aria-hidden="true">01</div>
-              <h3 className="ib-diff-card__title">100-Point Bankability Framework V3.2</h3>
+              <h3 className="ib-diff-card__title">100-Point Bankability Framework V3.6</h3>
               <p className="ib-diff-card__body">Five proprietary dimensions of deal viability. Structured scoring with traceable evidence for every point awarded — no editorial discretion.</p>
             </div>
 
@@ -151,23 +151,23 @@ export default function Home() {
               </thead>
               <tbody>
                 <tr>
+                  <td>NLNG Train 7 — Bonny Island</td>
+                  <td>Nigeria</td>
+                  <td><span className="score score--green">87/100</span></td>
+                  <td><span className="verdict-badge verdict-badge--green">Tier 1</span></td>
+                  <td>2019</td>
+                </tr>
+                <tr>
+                  <td>Azura-Edo IPP</td>
+                  <td>Nigeria</td>
+                  <td><span className="score score--green">91/100</span></td>
+                  <td><span className="verdict-badge verdict-badge--green">Tier 1</span></td>
+                  <td>2013</td>
+                </tr>
+                <tr>
                   <td>Bakassi Deep Seaport</td>
                   <td>Nigeria</td>
-                  <td><span className="score score--green">80/100</span></td>
-                  <td><span className="verdict-badge verdict-badge--green">Tier 1</span></td>
-                  <td>2026</td>
-                </tr>
-                <tr>
-                  <td>Lagos–Abuja HSR</td>
-                  <td>Nigeria</td>
-                  <td><span className="score score--green">74/100</span></td>
-                  <td><span className="verdict-badge verdict-badge--green">Tier 1</span></td>
-                  <td>2026</td>
-                </tr>
-                <tr>
-                  <td>Abuja Light Rail Extension</td>
-                  <td>Nigeria</td>
-                  <td><span className="score score--amber">62/100</span></td>
+                  <td><span className="score score--green">77/100</span></td>
                   <td><span className="verdict-badge verdict-badge--amber">Tier 2</span></td>
                   <td>2026</td>
                 </tr>
