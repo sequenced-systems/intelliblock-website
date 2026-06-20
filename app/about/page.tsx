@@ -38,11 +38,20 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Why AI-Native Matters */}
-      <section className="section section--dark" aria-labelledby="ai-native-headline">
+      {/* Independence Statement */}
+      <section className="section section--white" aria-label="Independence statement">
         <div className="container">
-          <h2 className="section-headline section-headline--white" id="ai-native-headline">Why AI-native matters</h2>
-          <p className="section-subhead section-subhead--white mb-8">Three numbers that explain the structural cost advantage.</p>
+          <div className="independence-statement">
+            <p className="independence-statement__text">Intelliblock operates without retainer, equity stake, or commission arrangement with any developer, contractor, or DFI. Scores and recommendations reflect the Bankability Framework assessment only.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Why AI-Native Matters */}
+      <section className="section section--white" aria-labelledby="ai-native-headline">
+        <div className="container">
+          <h2 className="section-headline" id="ai-native-headline">Why AI-native matters</h2>
+          <p className="section-subhead mb-8">Three numbers that explain the structural cost advantage.</p>
           <div className="grid-3">
             <div className="metric-card">
               <span className="metric-card__value">£70/mo</span>
@@ -83,11 +92,44 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* What We Are Not */}
-      <section className="section section--dark" aria-labelledby="not-headline">
+      {/* Analytical Engagements */}
+      <section className="section section--white" aria-labelledby="engagements-headline">
         <div className="container">
-          <h2 className="section-headline section-headline--white" id="not-headline">What we are not</h2>
-          <p className="section-subhead section-subhead--white mb-7">Four boundaries that define where Intelliblock operates and where it does not.</p>
+          <h2 className="section-headline" id="engagements-headline">Framework validation engagements</h2>
+          <p className="section-subhead">Retrospective scoring applied to completed transactions. These are analytical benchmarks — not advisory mandates. They establish framework directional accuracy before commercial deployment.</p>
+          <div className="tombstone-grid">
+
+            <div className="tombstone-card">
+              <p className="tombstone-card__label">Energy — IPP</p>
+              <h3 className="tombstone-card__title">Azura-Edo Independent Power Plant</h3>
+              <p className="tombstone-card__meta">Nigeria · 2013 signal date · Financial close 2015<br/>IFC, Proparco, FMO, DEG, Siemens<br/>Nigeria&apos;s first utility-scale IPP under NBET framework</p>
+              <span className="tombstone-card__score">91/100 — Tier 1</span>
+            </div>
+
+            <div className="tombstone-card">
+              <p className="tombstone-card__label">Energy — LNG</p>
+              <h3 className="tombstone-card__title">NLNG Train 7 — Bonny Island</h3>
+              <p className="tombstone-card__meta">Nigeria · 2019 signal date · Financial close 2021<br/>IFC, AfDB, BII, export credit agencies<br/>Gate 1 calibration anchor — V3.2 onwards</p>
+              <span className="tombstone-card__score">87/100 — Tier 1</span>
+            </div>
+
+            <div className="tombstone-card">
+              <p className="tombstone-card__label">Transport — Port</p>
+              <h3 className="tombstone-card__title">Lekki Deep Sea Port</h3>
+              <p className="tombstone-card__meta">Nigeria · 2018 signal date · Operational 2023<br/>Tolaram Group, China Harbour Engineering<br/>First deep-water port under Nigeria Port Authority PPP</p>
+              <span className="tombstone-card__score">80/100 — Tier 1</span>
+            </div>
+
+          </div>
+          <p className="text-sm text-secondary mt-6">Scores are retrospective — applied as at signal date, before outcomes were known. Directional accuracy across seven-transaction cohort: 80%. Source: Intelliblock Score Archive 2015–2026.</p>
+        </div>
+      </section>
+
+      {/* What We Are Not */}
+      <section className="section section--white" aria-labelledby="not-headline">
+        <div className="container">
+          <h2 className="section-headline" id="not-headline">What we are not</h2>
+          <p className="section-subhead mb-7">Four boundaries that define where Intelliblock operates and where it does not.</p>
           <ul className="not-list max-w-720">
             <li>Not a Big 4 substitute. We operate before their mandate process begins.</li>
             <li>Not a news aggregator. Every signal is scored before it reaches a client.</li>

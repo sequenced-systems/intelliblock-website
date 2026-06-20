@@ -114,10 +114,10 @@ export default function Home() {
       </div>
 
       {/* Score Archive Preview — S8 */}
-      <section className="section section--dark" aria-labelledby="archive-headline" data-animate="fade-up">
+      <section className="section section--white" aria-labelledby="archive-headline" data-animate="fade-up">
         <div className="container">
-          <h2 className="section-headline section-headline--white" id="archive-headline">Bankability Score Archive</h2>
-          <p className="section-subhead section-subhead--white">Retrospective scores applied against known outcomes. Framework directional accuracy: 80% across Gate 1 validation cohort.</p>
+          <h2 className="section-headline" id="archive-headline">Bankability Score Archive</h2>
+          <p className="section-subhead">Retrospective scores applied against known outcomes. Framework directional accuracy: 80% across Gate 1 validation cohort.</p>
           <div className="table-scroll">
             <table className="data-table data-table--contained" aria-label="Bankability score archive">
               <thead>
@@ -156,6 +156,15 @@ export default function Home() {
           </div>
           <div className="mt-7">
             <Link href="/intelligence" className="btn btn--primary">View full score archive &rarr;</Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Independence Statement */}
+      <section className="section section--white" aria-label="Independence statement">
+        <div className="container">
+          <div className="independence-statement">
+            <p className="independence-statement__text">Intelliblock operates without retainer, equity stake, or commission arrangement with any developer, contractor, or DFI. Scores and recommendations reflect the Bankability Framework assessment only.</p>
           </div>
         </div>
       </section>

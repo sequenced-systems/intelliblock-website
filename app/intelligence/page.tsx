@@ -123,6 +123,47 @@ export default function IntelligencePage() {
         </div>
       </section>
 
+      {/* Signal Brief Abstracts */}
+      <section className="section section--white" aria-labelledby="brief-abstracts-headline">
+        <div className="container">
+          <h2 className="section-headline" id="brief-abstracts-headline">Signal Brief Abstracts</h2>
+          <p className="section-subhead">Selected findings from the Intelliblock scoring pipeline. Full briefs available to Policy Convergence Intelligence subscribers.</p>
+          <div className="brief-abstract-list">
+
+            <div className="brief-abstract">
+              <div className="brief-abstract__header">
+                <span className="brief-abstract__date">June 2026</span>
+                <span className="brief-abstract__market">Nigeria</span>
+                <span className="brief-abstract__score">77/100 — Tier 2</span>
+              </div>
+              <h3 className="brief-abstract__title">Bakassi Deep Seaport — Presidential Priority Infrastructure Convergence</h3>
+              <p className="brief-abstract__finding">Presidential Priority designation under the Renewed Hope infrastructure agenda, combined with active ICRC PPP registration and Calabar Free Trade Zone adjacency, creates a multi-domain convergence signal. DFI appetite confirmed via AFREXIMBANK facility commitment at pre-financial close. Primary constraint: Environmental baseline (PS 1/4) requires independent assessment before Tier 1 upgrade. Opportunity window: 18–36 months to advisory mandate.</p>
+            </div>
+
+            <div className="brief-abstract">
+              <div className="brief-abstract__header">
+                <span className="brief-abstract__date">May 2026</span>
+                <span className="brief-abstract__market">Nigeria</span>
+                <span className="brief-abstract__score">87/100 — Tier 1</span>
+              </div>
+              <h3 className="brief-abstract__title">NLNG Train 7 — Retrospective Validation Cohort</h3>
+              <p className="brief-abstract__finding">Retrospective score applied at policy signal date (2019). Full DFI consortium confirmed (IFC, AfDB, BII, Export credit agencies). Offtake structure (SPA) precedent-setting for Nigerian LNG sector. Score reflects framework assessment prior to financial close — used as Gate 1 calibration anchor for V3.2 onwards. Directional result: correct. Outcome: financial close achieved 2021.</p>
+            </div>
+
+            <div className="brief-abstract">
+              <div className="brief-abstract__header">
+                <span className="brief-abstract__date">April 2026</span>
+                <span className="brief-abstract__market">Nigeria</span>
+                <span className="brief-abstract__score">91/100 — Tier 1</span>
+              </div>
+              <h3 className="brief-abstract__title">Azura-Edo IPP — Retrospective Validation Cohort</h3>
+              <p className="brief-abstract__finding">Retrospective score applied at policy signal date (2013). Nigeria&apos;s first utility-scale IPP under the NBET framework. Full DFI stack confirmed (IFC, Proparco, FMO, DEG, Siemens). Score reflects framework assessment at convergence point — all five domain gates cleared. Directional result: correct. Outcome: financial close achieved 2015, COD 2017. Highest-scoring project in the V3.6 retrospective cohort.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* Live HEARTBEAT Output */}
       <section className="section section--grey" aria-labelledby="live-output-headline">
         <div className="container" style={{textAlign:'center'}}>
