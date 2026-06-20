@@ -1,11 +1,12 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy
 
 on:
   push:
     branches: [main]
 
 permissions:
-  contents: write
+  contents: read
+  deployments: write
 
 jobs:
   build-and-deploy:
@@ -41,9 +42,11 @@ jobs:
       - name: Performance audit (Lighthouse CI)
         run: npx @lhci/cli@latest autorun --config=.lighthouserc.json
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@4a2e02b36f31d8974a0d09d3bb9f3172aa2d0d0d
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@f0a1cd58cd66095dee69bfa18fa5efd1dde93bca
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
-          cname: www.intelliblockconsulting.com
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: intelliblock-website
+          directory: out
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
