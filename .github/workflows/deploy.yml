@@ -29,6 +29,18 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Start preview server
+        run: npx serve@latest out --listen 3000 &
+
+      - name: Wait for server ready
+        run: npx wait-on@latest http://localhost:3000 --timeout 30000
+
+      - name: Accessibility audit (WCAG 2.1 AA)
+        run: npx axe-cli@latest http://localhost:3000/ http://localhost:3000/about/ http://localhost:3000/services/ http://localhost:3000/contact/ --tags wcag2a,wcag2aa --exit
+
+      - name: Performance audit (Lighthouse CI)
+        run: npx @lhci/cli@latest autorun --config=.lighthouserc.json
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@4a2e02b36f31d8974a0d09d3bb9f3172aa2d0d0d
         with:
