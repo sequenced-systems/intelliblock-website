@@ -1,9 +1,97 @@
 {
-  "exported_at": "2026-06-24T10:00:00Z",
-  "count": 16,
-  "corpus_total": 1605,
+  "exported_at": "2026-06-25T10:00:00Z",
+  "count": 21,
+  "corpus_total": 1610,
   "cluster_count": 41,
   "briefs": [
+    {
+      "signal_id": "SIGNAL-8260",
+      "title": "CBN’s Macroeconomic Stability & Growth Projections",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "Macroeconomics",
+        "Monetary Policy",
+        "Economic Development"
+      ],
+      "bankability_score": 62,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-25",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8265",
+      "title": "FEC Advances Transport Data Bank and Ports Power Plants",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "PPP",
+        "Infrastructure",
+        "Energy",
+        "Digital Infrastructure"
+      ],
+      "bankability_score": 72,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-25",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8284",
+      "title": "Nigeria's 2026 Fiscal Policy: New Tariffs, Excise Duties, and Green Tax",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "Policy",
+        "Fiscal",
+        "Revenue",
+        "Industry"
+      ],
+      "bankability_score": 68,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-25",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8302",
+      "title": "IFC Agreement to Boost Infrastructure Project Preparation and PPPs",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "DFI",
+        "Public-Private Partnerships (PPP)",
+        "Project Preparation"
+      ],
+      "bankability_score": 75,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-25",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8310",
+      "title": "Nigeria and IFC Sign Agreement to Boost Infrastructure Development Through Public-Private Partnerships",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "PPP",
+        "Infrastructure",
+        "Finance",
+        "DFI"
+      ],
+      "bankability_score": 68,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-25",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
     {
       "signal_id": "SIGNAL-IB002",
       "title": "AfDB Abuja Urban Infrastructure Development Project",
