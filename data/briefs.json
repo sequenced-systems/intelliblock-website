@@ -1,9 +1,62 @@
 {
-  "exported_at": "2026-06-25T10:00:00Z",
-  "count": 21,
-  "corpus_total": 1610,
+  "exported_at": "2026-06-26T10:00:00Z",
+  "count": 23,
+  "corpus_total": 1611,
   "cluster_count": 41,
   "briefs": [
+    {
+      "signal_id": "SIGNAL-8263",
+      "title": "Policy Stability & Investment in Special Economic Zones",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "Investment",
+        "Economic Zones",
+        "Industrial Development",
+        "Policy Consistency"
+      ],
+      "bankability_score": 63,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-26",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8284",
+      "title": "Nigeria's 2026 Fiscal Policy: New Tariffs, Excise Duties, and Green Tax",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "Policy",
+        "Fiscal",
+        "Revenue",
+        "Industry"
+      ],
+      "bankability_score": 68,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-26",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8317",
+      "title": "Nigeria and IFC Agreement for Infrastructure Development",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "DFI",
+        "PPP",
+        "Economic Transformation"
+      ],
+      "bankability_score": 78,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-26",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
     {
       "signal_id": "SIGNAL-8260",
       "title": "CBN’s Macroeconomic Stability & Growth Projections",
@@ -33,24 +86,6 @@
         "Digital Infrastructure"
       ],
       "bankability_score": 72,
-      "tier": "Bankable",
-      "framework_version": "V3.2",
-      "scored_at": "2026-06-25",
-      "delivered_at": "",
-      "admiralty_code": "F6"
-    },
-    {
-      "signal_id": "SIGNAL-8284",
-      "title": "Nigeria's 2026 Fiscal Policy: New Tariffs, Excise Duties, and Green Tax",
-      "market": "Nigeria",
-      "sector": "Unknown",
-      "domains": [
-        "Policy",
-        "Fiscal",
-        "Revenue",
-        "Industry"
-      ],
-      "bankability_score": 68,
       "tier": "Bankable",
       "framework_version": "V3.2",
       "scored_at": "2026-06-25",
