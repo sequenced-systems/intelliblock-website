@@ -1,9 +1,80 @@
 {
-  "exported_at": "2026-06-26T10:00:00Z",
-  "count": 23,
-  "corpus_total": 1611,
+  "exported_at": "2026-06-27T10:00:00Z",
+  "count": 26,
+  "corpus_total": 1625,
   "cluster_count": 41,
   "briefs": [
+    {
+      "signal_id": "SIGNAL-8274",
+      "title": "AFC's Role as Infrastructure Solutions Provider",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "DFI",
+        "Infrastructure Finance",
+        "African Development",
+        "Financial Advisory"
+      ],
+      "bankability_score": 70,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-27",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8308",
+      "title": "FEC Approved PPP Projects - AKG Gas Pipeline",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "Infrastructure",
+        "PPP",
+        "Energy",
+        "Gas"
+      ],
+      "bankability_score": 68,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-27",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8316",
+      "title": "Nigeria's Special Economic Zones (SEZs) are rapidly transforming into powerful catalysts for industrial growth and foreign investment",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "SEZ",
+        "Industrial Growth",
+        "Foreign Investment",
+        "PPP"
+      ],
+      "bankability_score": 76,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-27",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8317",
+      "title": "Nigeria and IFC Agreement for Infrastructure Development",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "DFI",
+        "PPP",
+        "Economic Transformation"
+      ],
+      "bankability_score": 78,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-27",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
     {
       "signal_id": "SIGNAL-8263",
       "title": "Policy Stability & Investment in Special Economic Zones",
@@ -34,23 +105,6 @@
         "Industry"
       ],
       "bankability_score": 68,
-      "tier": "Bankable",
-      "framework_version": "V3.2",
-      "scored_at": "2026-06-26",
-      "delivered_at": "",
-      "admiralty_code": "F6"
-    },
-    {
-      "signal_id": "SIGNAL-8317",
-      "title": "Nigeria and IFC Agreement for Infrastructure Development",
-      "market": "Nigeria",
-      "sector": "Unknown",
-      "domains": [
-        "DFI",
-        "PPP",
-        "Economic Transformation"
-      ],
-      "bankability_score": 78,
       "tier": "Bankable",
       "framework_version": "V3.2",
       "scored_at": "2026-06-26",
