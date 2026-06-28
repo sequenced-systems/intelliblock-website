@@ -1,9 +1,61 @@
 {
-  "exported_at": "2026-06-27T10:00:00Z",
-  "count": 26,
+  "exported_at": "2026-06-28T10:00:00Z",
+  "count": 28,
   "corpus_total": 1625,
   "cluster_count": 41,
   "briefs": [
+    {
+      "signal_id": "SIGNAL-010",
+      "title": "Nigeria's Special Economic Zones (SEZs) are rapidly transforming into powerful catalysts for industrial growth and foreign investment",
+      "market": "Nigeria",
+      "sector": "Trade/Regional Integration",
+      "domains": [
+        "Trade/Regional Integration",
+        "Infrastructure"
+      ],
+      "bankability_score": 72,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-28",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8240",
+      "title": "Nigeria Unveils Industrialisation Policy to Boost Jobs, Value Addition",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "Industrial Policy",
+        "Economic Development",
+        "Manufacturing",
+        "Special Economic Zones"
+      ],
+      "bankability_score": 69,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-28",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
+    {
+      "signal_id": "SIGNAL-8266",
+      "title": "Lagos State Plans New Sub-National Asset Securitisation Model",
+      "market": "Nigeria",
+      "sector": "Unknown",
+      "domains": [
+        "Subnational Infrastructure",
+        "Innovative Finance",
+        "Public Finance",
+        "Infrastructure"
+      ],
+      "bankability_score": 68,
+      "tier": "Bankable",
+      "framework_version": "V3.2",
+      "scored_at": "2026-06-28",
+      "delivered_at": "",
+      "admiralty_code": "F6"
+    },
     {
       "signal_id": "SIGNAL-8274",
       "title": "AFC's Role as Infrastructure Solutions Provider",
@@ -250,24 +302,8 @@
       "admiralty_code": "F6"
     },
     {
-      "signal_id": "SIGNAL-010",
-      "title": "Africa PPP and concession pipeline - Scouts by Yutori",
-      "market": "Nigeria",
-      "sector": "Trade/Regional Integration",
-      "domains": [
-        "Trade/Regional Integration",
-        "Infrastructure"
-      ],
-      "bankability_score": 68,
-      "tier": "Bankable",
-      "framework_version": "V3.2",
-      "scored_at": "2026-06-18",
-      "delivered_at": "",
-      "admiralty_code": "F6"
-    },
-    {
       "signal_id": "SIGNAL-013",
-      "title": "Nigeria's New Economic Zones: What Investors Need to Know in 2026",
+      "title": "Nigeria Industrial Policy 2026: A New Blueprint for Manufacturing",
       "market": "Nigeria",
       "sector": "Unknown",
       "domains": [
